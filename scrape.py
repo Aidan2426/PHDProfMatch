@@ -205,6 +205,48 @@ def scrape_programs():
     print(f"Saved {len(programs)} programs -> {out}")
 
 
+def scrape_missing():
+    """List APA doctoral programs not covered by faculty_matches: either filtered out
+    (PsyD, School Psych, ...) or searched but the site couldn't be crawled."""
+    def search(o1=(), o2=()):
+        r = requests.post(f"{APA}/search", headers=APA_HEADERS, json={
+            "programLevel": "Doctoral", "states": [], "option1": list(o1), "option2": list(o2), "keyword": ""})
+        r.raise_for_status()
+        return r.json()
+
+    opts = requests.get(f"{APA}/options", params={"programLevel": "Doctoral"}, headers=APA_HEADERS).json()
+    kind = {}  # program number -> (area, degree)
+    for area in opts["option1"][1:]:
+        for deg in opts["option2"][1:]:
+            for row in search([area], [deg]):
+                kind[row["apaProgramNumber"]] = (area, deg)
+
+    programs = {p["apa_program_number"]: p for p in json.loads((DATA / "programs.json").read_text(encoding="utf-8"))}
+    logs = {l["apa_program_number"]: l for l in json.loads((DATA / "crawl_log.json").read_text(encoding="utf-8"))}
+
+    missing = []
+    for row in search():
+        n = row["apaProgramNumber"]
+        area, deg = kind.get(n, ("Unknown", "Unknown"))
+        base = {"apa_program_number": n, "institution": row["institutionName"], "city": row["institutionCity"],
+                "state": row["institutionState"], "department": (row["programDepartment"] or "").strip(),
+                "area": area, "degree": deg}
+        if n not in programs:
+            missing.append({**base, "reason_type": "excluded",
+                            "reason": f"Not searched: {area} {deg}", "website": None})
+            continue
+        log = logs.get(n, {})
+        if log.get("error") or log.get("profiles_checked", 0) < 5:
+            why = log.get("error") or f"only {log.get('profiles_checked', 0)} faculty profiles found"
+            missing.append({**base, "reason_type": "crawl_failed",
+                            "reason": f"Searched, site not read: {why}", "website": programs[n]["website"]})
+
+    out = DATA / "missing_programs.json"
+    out.write_text(json.dumps(missing, indent=2, ensure_ascii=False), encoding="utf-8")
+    n_ex = sum(m["reason_type"] == "excluded" for m in missing)
+    print(f"{len(missing)} missing ({n_ex} excluded, {len(missing) - n_ex} crawl failed) -> {out}")
+
+
 # --------------------------------------------------------------------------
 # Step 2: faculty crawl
 # --------------------------------------------------------------------------
@@ -431,7 +473,7 @@ def run_faculty(limit=None, only=None, browser=False, workers=12):
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
-    ap.add_argument("step", choices=["programs", "faculty"])
+    ap.add_argument("step", choices=["programs", "faculty", "missing"])
     ap.add_argument("--limit", type=int)
     ap.add_argument("--only", type=lambda s: {int(x) for x in s.split(",")})
     ap.add_argument("--browser", action="store_true")
@@ -439,5 +481,7 @@ if __name__ == "__main__":
     a = ap.parse_args()
     if a.step == "programs":
         scrape_programs()
+    elif a.step == "missing":
+        scrape_missing()
     else:
         run_faculty(a.limit, a.only, a.browser, a.workers)

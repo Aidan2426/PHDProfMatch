@@ -87,6 +87,17 @@ summary { cursor: pointer; color: var(--accent); font-size: 13px; }
 .ev li { margin-bottom: 6px; color: var(--text); }
 .ev-acc { margin: 6px 0; padding: 6px 8px; border-left: 3px solid var(--border); background: var(--bg); }
 .empty { color: var(--muted); padding: 30px 0; text-align: center; }
+.tabs { display: flex; gap: 6px; margin-top: 10px; }
+.tabs button.on { background: var(--accent); color: var(--chip-on-text); border-color: var(--accent); }
+.hidden { display: none !important; }
+.note { color: var(--muted); margin: 0 0 10px; }
+.tbl-wrap { overflow-x: auto; }
+table.miss { width: 100%; border-collapse: collapse; background: var(--panel); border: 1px solid var(--border); }
+table.miss th, table.miss td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--border); vertical-align: top; }
+table.miss th { font-size: 12px; color: var(--muted); font-weight: 600; }
+table.miss tr:nth-child(even) td { background: var(--row-alt); }
+.b-excluded { color: var(--grey); background: var(--grey-bg); }
+.b-crawl_failed { color: var(--red); background: var(--red-bg); }
 @media (max-width: 600px) {
   .top { flex-wrap: wrap; }
   .score { margin-left: 0; width: 100%; text-align: left; }
@@ -99,7 +110,32 @@ summary { cursor: pointer; color: var(--accent); font-size: 13px; }
   <h1>Faculty Matches</h1>
   <div class="counts"><span id="shown">0</span> shown of <span id="total">0</span> total
     &middot; <span id="slCount">0</span> shortlisted &middot; built __BUILT__</div>
+  <div class="tabs">
+    <button type="button" id="tabMatches" class="on">Faculty matches</button>
+    <button type="button" id="tabMissing">Programs not covered (<span id="missTotal">0</span>)</button>
+  </div>
 </header>
+<div id="missingView" class="hidden">
+  <div class="controls">
+    <input type="search" id="mq" placeholder="Search institution, department, state...">
+    <select id="mtype">
+      <option value="">Reason: all</option>
+      <option value="crawl_failed">Searched, site not read</option>
+      <option value="excluded">Not searched (PsyD / School / other)</option>
+    </select>
+    <span class="sub"><span id="missShown">0</span> shown</span>
+  </div>
+  <main>
+    <p class="note">APA lists 442 accredited doctoral programs. Only Clinical, Counseling and combined
+      Clinical-Counseling <b>PhD</b> programs were searched. "Site not read" means the program was in scope but its
+      site blocked the scraper or no faculty list was found &mdash; check those by hand.</p>
+    <div class="tbl-wrap"><table class="miss">
+      <thead><tr><th>Institution</th><th>Department</th><th>State</th><th>Area</th><th>Degree</th><th>Reason</th></tr></thead>
+      <tbody id="missBody"></tbody>
+    </table></div>
+  </main>
+</div>
+<div id="matchesView">
 <div class="controls">
   <input type="search" id="q" placeholder="Search name, institution, terms, evidence...">
   <select id="acc">
@@ -125,8 +161,10 @@ summary { cursor: pointer; color: var(--accent); font-size: 13px; }
   <button id="reset">Reset filters</button>
 </div>
 <main id="list"></main>
+</div>
 
 <script id="data" type="application/json">__DATA__</script>
+<script id="missing" type="application/json">__MISSING__</script>
 <script>
 (function () {
   "use strict";
@@ -312,7 +350,45 @@ summary { cursor: pointer; color: var(--accent); font-size: 13px; }
     setTimeout(function () { URL.revokeObjectURL(a.href); }, 1000);
   });
 
+  // Programs not covered tab
+  var MISSING = JSON.parse(document.getElementById("missing").textContent || "[]");
+  var TYPE_LABEL = { excluded: "Not searched", crawl_failed: "Site not read" };
+  $("missTotal").textContent = MISSING.length;
+  function renderMissing() {
+    var q = $("mq").value.trim().toLowerCase().split(/\s+/).filter(Boolean), t = $("mtype").value;
+    var rows = MISSING.filter(function (m) {
+      if (t && m.reason_type !== t) return false;
+      var hay = [m.institution, m.department, m.city, m.state, m.area, m.degree, m.reason].join(" ").toLowerCase();
+      for (var i = 0; i < q.length; i++) if (hay.indexOf(q[i]) < 0) return false;
+      return true;
+    });
+    rows.sort(function (x, y) {
+      return (x.reason_type === y.reason_type ? 0 : x.reason_type === "crawl_failed" ? -1 : 1) ||
+        String(x.state).localeCompare(String(y.state)) || String(x.institution).localeCompare(String(y.institution));
+    });
+    $("missShown").textContent = rows.length;
+    $("missBody").innerHTML = rows.map(function (m) {
+      var web = safeUrl(m.website);
+      return "<tr><td>" + (web ? '<a href="' + esc(web) + '" target="_blank" rel="noopener">' + esc(m.institution) + "</a>" : esc(m.institution)) +
+        "</td><td>" + esc(m.department) + "</td><td>" + esc(m.state) + "</td><td>" + esc(m.area) +
+        "</td><td>" + esc(m.degree) + '</td><td><span class="badge b-' + esc(m.reason_type) + '">' +
+        esc(TYPE_LABEL[m.reason_type] || m.reason_type) + '</span> <span class="sub">' +
+        esc(m.reason.replace(/^[^:]*:\s*/, "")) + "</span></td></tr>";
+    }).join("") || '<tr><td colspan="6" class="empty">No programs.</td></tr>';
+  }
+  $("mq").addEventListener("input", renderMissing);
+  $("mtype").addEventListener("change", renderMissing);
+  function showTab(missing) {
+    $("missingView").classList.toggle("hidden", !missing);
+    $("matchesView").classList.toggle("hidden", missing);
+    $("tabMissing").classList.toggle("on", missing);
+    $("tabMatches").classList.toggle("on", !missing);
+  }
+  $("tabMatches").addEventListener("click", function () { showTab(false); });
+  $("tabMissing").addEventListener("click", function () { showTab(true); });
+
   render();
+  renderMissing();
 })();
 </script>
 </body>
@@ -324,10 +400,13 @@ def main():
     data = json.loads(SRC.read_text(encoding="utf-8"))
     if not isinstance(data, list):
         raise SystemExit(f"Expected a JSON array in {SRC}")
+    miss_path = SRC.parent / "missing_programs.json"   # from `python scrape.py missing`
+    missing = json.loads(miss_path.read_text(encoding="utf-8")) if miss_path.exists() else []
     html = (TEMPLATE.replace("__BUILT__", datetime.now().strftime("%Y-%m-%d %H:%M"))
+                    .replace("__MISSING__", embed_json(missing))
                     .replace("__DATA__", embed_json(data)))
     OUT.write_text(html, encoding="utf-8")
-    print(f"Wrote {OUT} ({len(data)} rows, {OUT.stat().st_size // 1024} KB)")
+    print(f"Wrote {OUT} ({len(data)} rows, {len(missing)} missing programs, {OUT.stat().st_size // 1024} KB)")
 
 
 if __name__ == "__main__":
