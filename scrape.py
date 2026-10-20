@@ -19,6 +19,7 @@ import hashlib
 import json
 import re
 import sys
+import threading
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
@@ -39,7 +40,7 @@ UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
 HEADERS = {"User-Agent": UA, "Accept-Language": "en-US,en;q=0.9"}
 APA_HEADERS = {**HEADERS, "Origin": "https://apps.apa.org", "Referer": "https://apps.apa.org/"}
 
-AREAS = ["Clinical Psychology", "Counseling Psychology",
+AREAS = ["Clinical Psychology", "Counseling Psychology", "School Psychology",
          "Combined, Clinical-Counseling Psychology",
          "Combined, Clinical-Counseling-School Psychology",
          "Combined, Clinical-School Psychology",
@@ -142,22 +143,36 @@ def fetch_requests(url):
 
 
 class BrowserFetcher:
-    """Playwright fallback for JS-rendered or bot-blocked sites. Single-threaded."""
+    """Playwright fallback for JS-rendered or bot-blocked sites. One instance per thread."""
 
     def __init__(self):
         from playwright.sync_api import sync_playwright
         self._pw = sync_playwright().start()
         self._b = self._pw.chromium.launch()
-        self._pg = self._b.new_context(user_agent=UA).new_page()
+        self._pg = self._b.new_context(user_agent=UA, ignore_https_errors=True).new_page()
+
+    CHALLENGE = re.compile(r"<title>\s*(Just a moment|Attention Required|Access denied)", re.I)
 
     def __call__(self, url):
         p = _cache_path(url, "b")
         if p.exists():
-            return p.read_text(encoding="utf-8", errors="ignore")
+            html = p.read_text(encoding="utf-8", errors="ignore")
+            if not self.CHALLENGE.search(html):
+                return html
         try:
-            self._pg.goto(url, wait_until="domcontentloaded", timeout=30000)
-            self._pg.wait_for_timeout(2500)
+            resp = self._pg.goto(url, wait_until="domcontentloaded", timeout=30000)
+            self._pg.wait_for_timeout(700)
             html = self._pg.content()
+            # bot-check interstitial: give it time to clear on its own
+            for _ in range(6):
+                if not self.CHALLENGE.search(html):
+                    break
+                self._pg.wait_for_timeout(2500)
+                html = self._pg.content()
+            if self.CHALLENGE.search(html):
+                return ""  # still blocked; don't cache
+            if resp is not None and resp.status >= 400 and self._pg.url == resp.url:
+                html = ""
         except Exception:
             html = ""
         p.write_text(html, encoding="utf-8")
@@ -168,11 +183,40 @@ class BrowserFetcher:
         self._pw.stop()
 
 
+class ThreadedBrowser:
+    """Callable fetcher that lazily gives each worker thread its own BrowserFetcher."""
+
+    def __init__(self):
+        self._local = threading.local()
+        self._all = []
+        self._lock = threading.Lock()
+
+    def __call__(self, url):
+        bf = getattr(self._local, "bf", None)
+        if bf is None:
+            bf = self._local.bf = BrowserFetcher()
+            with self._lock:
+                self._all.append(bf)
+        return bf(url)
+
+    def close(self):
+        # Playwright sync objects must be closed from the thread that made them;
+        # at process exit the browsers are torn down anyway, so best-effort only.
+        for bf in self._all:
+            try:
+                bf.close()
+            except Exception:
+                pass
+
+
 # --------------------------------------------------------------------------
 # Step 1: APA programs
 # --------------------------------------------------------------------------
 def scrape_programs():
-    seen, programs = set(), []
+    # keep already-fetched programs; only hit /details for new ones
+    out = DATA / "programs.json"
+    programs = json.loads(out.read_text(encoding="utf-8")) if out.exists() else []
+    seen = {p["apa_program_number"] for p in programs}
     for area in AREAS:
         r = requests.post(f"{APA}/search", headers=APA_HEADERS, json={
             "programLevel": "Doctoral", "states": [], "option1": [area],
@@ -200,7 +244,6 @@ def scrape_programs():
                 "outcomes_data_url": d.get("DocC20URL"),
             })
             time.sleep(0.1)
-    out = DATA / "programs.json"
     out.write_text(json.dumps(programs, indent=2), encoding="utf-8")
     print(f"Saved {len(programs)} programs -> {out}")
 
@@ -337,6 +380,18 @@ def crawl_program(prog, fetch):
 
     html = fetch(start)
     if not html:
+        # APA's stored URL is often stale (404): walk up the path until something loads
+        u = urlparse(start)
+        segs = [s for s in u.path.split("/") if s]
+        host = u.hostname or ""
+        dept_host = host.count(".") >= 2 and not host.startswith("www.")  # e.g. psychology.x.edu
+        for i in range(len(segs) - 1, -1 if dept_host else 0, -1):
+            parent = f"{u.scheme}://{u.netloc}/" + "/".join(segs[:i]) + ("/" if i else "")
+            html = fetch(parent)
+            if html:
+                log["start_fallback"] = start = parent
+                break
+    if not html:
         log["error"] = "start page fetch failed"
         return [], log
     soup = BeautifulSoup(html, "lxml")
@@ -421,29 +476,88 @@ def crawl_program(prog, fetch):
     return list(results.values()), log
 
 
-def run_faculty(limit=None, only=None, browser=False, workers=12):
+def is_weak(log):
+    return bool(log.get("error")) or log.get("profiles_checked", 0) < 5
+
+
+def load_json(name):
+    p = DATA / name
+    return json.loads(p.read_text(encoding="utf-8")) if p.exists() else []
+
+
+def save_results(all_hits, logs, suffix=""):
+    # rank: accepting this cycle first, then youth focus, then topic strength
+    rank = {"accepting": 0, "unknown": 1, "not_accepting": 2}
+    all_hits.sort(key=lambda h: (rank[h["accepting"]["status"]], not h["accepting"]["current_cycle"],
+                                 not h["youth_focus"], -h["topic_score"]))
+    (DATA / f"faculty_matches{suffix}.json").write_text(json.dumps(all_hits, indent=2, ensure_ascii=False), encoding="utf-8")
+    (DATA / f"crawl_log{suffix}.json").write_text(json.dumps(logs, indent=2), encoding="utf-8")
+
+
+def merge_retry():
+    """Fold data/*_retry.json (from --retry-failed) into the main results,
+    replacing a program's rows only where the retry did better."""
+    hits, logs = load_json("faculty_matches.json"), load_json("crawl_log.json")
+    r_hits, r_logs = load_json("faculty_matches_retry.json"), load_json("crawl_log_retry.json")
+    old = {l["apa_program_number"]: l for l in logs}
+    improved = 0
+    for rl in r_logs:
+        n = rl["apa_program_number"]
+        ol = old.get(n, {"error": "missing"})
+        if is_weak(ol) and rl.get("profiles_checked", 0) > ol.get("profiles_checked", 0):
+            hits = [h for h in hits if h["apa_program_number"] != n] + [h for h in r_hits if h["apa_program_number"] == n]
+            logs = [l for l in logs if l["apa_program_number"] != n] + [rl]
+            improved += 1
+    save_results(hits, logs)
+    print(f"Merged retry: {improved}/{len(r_logs)} programs improved, {len(hits)} total matches")
+
+
+def run_faculty(limit=None, only=None, browser=False, workers=12, new=False, retry_failed=False):
     programs = json.loads((DATA / "programs.json").read_text(encoding="utf-8"))
+
+    # Merge into existing results: programs crawled this run replace their old rows,
+    # everything else is kept. Results are saved after every program.
+    # --retry-failed re-crawls weak programs with a real browser into separate
+    # *_retry.json files (so it can run alongside another crawl); `merge` folds them in.
+    suffix = "_retry" if retry_failed else ""
+    main_logs = load_json("crawl_log.json")
+    all_hits, logs = load_json(f"faculty_matches{suffix}.json"), load_json(f"crawl_log{suffix}.json")
+    done = {l["apa_program_number"] for l in logs}
+
+    if retry_failed:
+        weak = {l["apa_program_number"] for l in main_logs if is_weak(l)}
+        programs = [p for p in programs if p["apa_program_number"] in weak]
     if only:
         programs = [p for p in programs if p["apa_program_number"] in only]
+    if new:
+        programs = [p for p in programs if p["apa_program_number"] not in done]
     if limit:
         programs = programs[:limit]
 
-    all_hits, logs = [], []
+    def replace(n, hits, log):
+        nonlocal all_hits, logs
+        all_hits = [h for h in all_hits if h["apa_program_number"] != n] + hits
+        logs = [l for l in logs if l["apa_program_number"] != n] + [log]
+        save_results(all_hits, logs, suffix)
+
+    fetch = ThreadedBrowser() if retry_failed else fetch_requests
     with ThreadPoolExecutor(workers) as ex:
-        futs = {ex.submit(crawl_program, p, fetch_requests): p for p in programs}
+        futs = {ex.submit(crawl_program, p, fetch): p for p in programs}
         for i, f in enumerate(as_completed(futs), 1):
             p = futs[f]
             try:
                 hits, log = f.result()
             except Exception as e:
                 hits, log = [], {"apa_program_number": p["apa_program_number"], "error": repr(e)}
-            all_hits += hits
-            logs.append(log)
+            replace(p["apa_program_number"], hits, log)
             print(f"[{i}/{len(programs)}] {p['institution']} — {len(hits)} matches, "
                   f"{log.get('profiles_checked', 0)} profiles {log.get('error') or ''}", flush=True)
+    if retry_failed:
+        fetch.close()
 
-    if browser:
-        weak = {l["apa_program_number"] for l in logs if l.get("error") or l.get("profiles_checked", 0) < 5}
+    if browser and not retry_failed:
+        ran = {p["apa_program_number"] for p in programs}
+        weak = {l["apa_program_number"] for l in logs if l["apa_program_number"] in ran and is_weak(l)}
         print(f"\nBrowser fallback for {len(weak)} weak programs…")
         bf = BrowserFetcher()
         try:
@@ -455,33 +569,31 @@ def run_faculty(limit=None, only=None, browser=False, workers=12):
                 except Exception as e:
                     hits, log = [], {"apa_program_number": p["apa_program_number"], "error": repr(e)}
                 log["browser"] = True
-                all_hits = [h for h in all_hits if h["apa_program_number"] != p["apa_program_number"]] + hits
-                logs = [l for l in logs if l["apa_program_number"] != p["apa_program_number"]] + [log]
+                replace(p["apa_program_number"], hits, log)
                 print(f"  {p['institution']} — {len(hits)} matches, {log.get('profiles_checked', 0)} profiles")
         finally:
             bf.close()
 
-    # rank: accepting this cycle first, then youth focus, then topic strength
-    rank = {"accepting": 0, "unknown": 1, "not_accepting": 2}
-    all_hits.sort(key=lambda h: (rank[h["accepting"]["status"]], not h["accepting"]["current_cycle"],
-                                 not h["youth_focus"], -h["topic_score"]))
-    (DATA / "faculty_matches.json").write_text(json.dumps(all_hits, indent=2, ensure_ascii=False), encoding="utf-8")
-    (DATA / "crawl_log.json").write_text(json.dumps(logs, indent=2), encoding="utf-8")
-    print(f"\n{len(all_hits)} faculty matches -> data/faculty_matches.json")
+    print(f"\n{len(all_hits)} faculty matches -> data/faculty_matches{suffix}.json")
     print(f"Crawl log (check programs with errors / 0 profiles) -> data/crawl_log.json")
 
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
-    ap.add_argument("step", choices=["programs", "faculty", "missing"])
+    ap.add_argument("step", choices=["programs", "faculty", "missing", "merge"])
     ap.add_argument("--limit", type=int)
     ap.add_argument("--only", type=lambda s: {int(x) for x in s.split(",")})
     ap.add_argument("--browser", action="store_true")
     ap.add_argument("--workers", type=int, default=12)
+    ap.add_argument("--new", action="store_true", help="only crawl programs not yet in crawl_log.json")
+    ap.add_argument("--retry-failed", action="store_true",
+                    help="re-crawl weak programs with Playwright into *_retry.json; then run `merge`")
     a = ap.parse_args()
     if a.step == "programs":
         scrape_programs()
     elif a.step == "missing":
         scrape_missing()
+    elif a.step == "merge":
+        merge_retry()
     else:
-        run_faculty(a.limit, a.only, a.browser, a.workers)
+        run_faculty(a.limit, a.only, a.browser, a.workers, a.new, a.retry_failed)

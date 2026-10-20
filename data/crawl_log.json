@@ -155,13 +155,6 @@
     "error": "start page fetch failed"
   },
   {
-    "apa_program_number": 11,
-    "start": "https://psychology.uconn.edu/phd/clinical-psychology/",
-    "listing_pages": [],
-    "profiles_checked": 0,
-    "error": "start page fetch failed"
-  },
-  {
     "apa_program_number": 179,
     "start": "https://www.colorado.edu/clinicalpsychology/",
     "listing_pages": [
@@ -174,13 +167,6 @@
     "program_accepting_pages": [
       "https://www.colorado.edu/clinicalpsychology/graduate-program/prospective-students"
     ]
-  },
-  {
-    "apa_program_number": 119,
-    "start": "https://www.american.edu/cas/psychology/clinical/",
-    "listing_pages": [],
-    "profiles_checked": 0,
-    "error": "start page fetch failed"
   },
   {
     "apa_program_number": 201,
@@ -350,13 +336,6 @@
     "profiles_checked": 104,
     "error": null,
     "program_accepting_pages": []
-  },
-  {
-    "apa_program_number": 134,
-    "start": "http://psychology.emory.edu/home/graduate/clinical-science.html",
-    "listing_pages": [],
-    "profiles_checked": 0,
-    "error": "start page fetch failed"
   },
   {
     "apa_program_number": 115,
@@ -542,13 +521,6 @@
     "profiles_checked": 0,
     "error": null,
     "program_accepting_pages": []
-  },
-  {
-    "apa_program_number": 76,
-    "start": "https://psch.uic.edu/programs/graduate-studies/reseach-clinical-programs-gradudate-studies-clinical/",
-    "listing_pages": [],
-    "profiles_checked": 0,
-    "error": "start page fetch failed"
   },
   {
     "apa_program_number": 120,
@@ -801,13 +773,6 @@
     "program_accepting_pages": []
   },
   {
-    "apa_program_number": 314,
-    "start": "https://medschool.usuhs.edu/academics/geo/phd-in-clinical-psychology ",
-    "listing_pages": [],
-    "profiles_checked": 0,
-    "error": "start page fetch failed"
-  },
-  {
     "apa_program_number": 973,
     "start": "https://ccpp.ku.edu/",
     "listing_pages": [
@@ -874,13 +839,6 @@
   {
     "apa_program_number": 1553,
     "start": "https://www.emich.edu/psychology/programs/clinical-psychology-phd.php",
-    "listing_pages": [],
-    "profiles_checked": 0,
-    "error": "start page fetch failed"
-  },
-  {
-    "apa_program_number": 937,
-    "start": "https://psychology.msu.edu/programs/clinical/index.html",
     "listing_pages": [],
     "profiles_checked": 0,
     "error": "start page fetch failed"
@@ -1147,13 +1105,6 @@
     "profiles_checked": 73,
     "error": null,
     "program_accepting_pages": []
-  },
-  {
-    "apa_program_number": 274,
-    "start": "https://clinicalpsych.unc.edu/",
-    "listing_pages": [],
-    "profiles_checked": 0,
-    "error": "start page fetch failed"
   },
   {
     "apa_program_number": 858,
@@ -3421,5 +3372,941 @@
     "profiles_checked": 120,
     "error": null,
     "program_accepting_pages": []
+  },
+  {
+    "apa_program_number": 2111,
+    "start": "https://morgridge.du.edu/academic-programs/school-psychology/phd",
+    "listing_pages": [],
+    "profiles_checked": 0,
+    "error": "start page fetch failed"
+  },
+  {
+    "apa_program_number": 980,
+    "start": "https://www.usf.edu/education/areas-of-study/school-psychology/",
+    "listing_pages": [],
+    "profiles_checked": 0,
+    "error": "start page fetch failed"
+  },
+  {
+    "apa_program_number": 940,
+    "start": "https://schoolpsych.education.uconn.edu/",
+    "listing_pages": [],
+    "profiles_checked": 0,
+    "error": "start page fetch failed"
+  },
+  {
+    "apa_program_number": 187,
+    "start": "https://coe.arizona.edu/programs/school-psychology-phd",
+    "listing_pages": [],
+    "profiles_checked": 0,
+    "error": "start page fetch failed"
+  },
+  {
+    "apa_program_number": 2684,
+    "start": "https://www.indstate.edu/education/aces/school-psychology/doctoral-programs",
+    "listing_pages": [],
+    "profiles_checked": 0,
+    "error": "start page fetch failed"
+  },
+  {
+    "apa_program_number": 1641,
+    "start": "https://www.niu.edu/clas/psychology/academics/graduate/school/index.shtml",
+    "listing_pages": [
+      "https://directory.niu.edu/app/directory/PeopleSearch.aspx",
+      "https://www.niu.edu/clas/psychology/academics/graduate/clinical/admissions-process.shtml",
+      "https://www.niu.edu/clas/psychology/academics/graduate/developmental/admissions.shtml",
+      "https://www.niu.edu/clas/psychology/academics/graduate/school/admissions.shtml",
+      "https://www.niu.edu/clas/psychology/academics/graduate/social/admissions.shtml"
+    ],
+    "profiles_checked": 50,
+    "error": null,
+    "program_accepting_pages": [
+      "https://www.niu.edu/clas/psychology/academics/graduate/clinical/admissions-process.shtml"
+    ]
+  },
+  {
+    "apa_program_number": 205,
+    "start": "https://bse.berkeley.edu/professional-programs/school-psychology",
+    "listing_pages": [
+      "https://bse.berkeley.edu/admissions",
+      "https://bse.berkeley.edu/people-0",
+      "https://bse.berkeley.edu/people/faculty",
+      "https://bse.berkeley.edu/people/faculty-emeriti",
+      "https://bse.berkeley.edu/people/affiliated-faculty",
+      "https://bse.berkeley.edu/people/lecturers"
+    ],
+    "profiles_checked": 22,
+    "error": null,
+    "program_accepting_pages": []
+  },
+  {
+    "apa_program_number": 312,
+    "start": "https://education.ufl.edu/school-psychology/",
+    "listing_pages": [
+      "https://education.ufl.edu/admissions/",
+      "https://education.ufl.edu/faculty",
+      "https://education.ufl.edu/contact/directory/",
+      "http://education.ufl.edu/admissions",
+      "https://education.ufl.edu/school-psychology/prospective-students/",
+      "https://education.ufl.edu/school-psychology/faculty-and-staff/"
+    ],
+    "profiles_checked": 16,
+    "error": null,
+    "program_accepting_pages": []
+  },
+  {
+    "apa_program_number": 1726,
+    "start": "https://www.luc.edu/education/academics/degreeprograms/doctoraldegrees/phdinschoolpsychology/",
+    "listing_pages": [
+      "https://www.luc.edu/faculty-staff",
+      "https://www.luc.edu/education/admission/",
+      "https://www.luc.edu/education/directory/",
+      "https://www.luc.edu/education/academics/areasofstudy/schoolpsychology/",
+      "https://www.luc.edu/education/admission/apply/",
+      "https://www.luc.edu/education/admission/financialassistance/"
+    ],
+    "profiles_checked": 120,
+    "error": null,
+    "program_accepting_pages": []
+  },
+  {
+    "apa_program_number": 268,
+    "start": "https://sse.tulane.edu/psyc/academics/graduate/phd-programs/school-psyc",
+    "listing_pages": [],
+    "profiles_checked": 0,
+    "error": "start page fetch failed"
+  },
+  {
+    "apa_program_number": 65,
+    "start": "https://www.bsu.edu/academics/collegesanddepartments/educational-psychology/academic-programs/graduate-programs-in-school-psychology/phd-school-psychology",
+    "listing_pages": [
+      "https://www.bsu.edu/admissions",
+      "https://www.bsu.edu/gateways/faculty-and-staff",
+      "https://www.bsu.edu/directory",
+      "https://www.bsu.edu/academics/collegesanddepartments/educational-psychology/admissions-and-financial-aid",
+      "https://www.bsu.edu/academics/collegesanddepartments/educational-psychology/about-us/faculty-and-staff-directory",
+      "https://www.bsu.edu/about/social-media-directory"
+    ],
+    "profiles_checked": 93,
+    "error": null,
+    "program_accepting_pages": []
+  },
+  {
+    "apa_program_number": 1491,
+    "start": "https://education.ucr.edu/doctoral/school-psychology",
+    "listing_pages": [
+      "https://education.ucr.edu/people",
+      "https://education.ucr.edu/faculty-instructors-researchers",
+      "https://education.ucr.edu/faculty-research-interests",
+      "https://education.ucr.edu/doctoral/school-psychology",
+      "https://admissions.ucr.edu/",
+      "https://education.ucr.edu/phd-admissions"
+    ],
+    "profiles_checked": 98,
+    "error": null,
+    "program_accepting_pages": []
+  },
+  {
+    "apa_program_number": 183,
+    "start": "https://www.unco.edu/cebs/school-psychology/programs/doctor-philosophy.aspx",
+    "listing_pages": [
+      "https://www.unco.edu/faculty-staff/",
+      "https://www.unco.edu/employee-directory/",
+      "https://www.unco.edu/admissions-aid/",
+      "https://www.unco.edu/admissions-aid/undergraduate/",
+      "https://www.unco.edu/admissions-aid/graduate/",
+      "https://www.unco.edu/osteopathic-medicine/admission/"
+    ],
+    "profiles_checked": 81,
+    "error": null,
+    "program_accepting_pages": []
+  },
+  {
+    "apa_program_number": 259,
+    "start": "https://coe.uga.edu/academics/degrees/phd-educational-psychology-school-psychology/",
+    "listing_pages": [
+      "https://coe.uga.edu/directory",
+      "https://coe.uga.edu/alumni/retired-faculty",
+      "https://coe.uga.edu/academics/concentrations/school-psychology",
+      "https://peoplesearch.uga.edu/",
+      "https://www.admissions.uga.edu/",
+      "https://coe.uga.edu/directory/communication-sciences-and-special-education/"
+    ],
+    "profiles_checked": 120,
+    "error": null,
+    "program_accepting_pages": []
+  },
+  {
+    "apa_program_number": 2614,
+    "start": "https://education.uiowa.edu/areas-study/counseling-and-mental-health/school-psychology",
+    "listing_pages": [
+      "https://education.uiowa.edu/research/grants-and-research-services-center/faculty-grant-funding",
+      "https://education.uiowa.edu/about/administration/faculty-handbook",
+      "https://education.uiowa.edu/areas-study/counseling-and-mental-health/school-psychology/school-psychology-student-admissions",
+      "https://education.uiowa.edu/directory/?cohort=519585",
+      "https://education.uiowa.edu/news/2023/05/college-education-faculty-awarded-53-million-national-mental-health-grant",
+      "https://education.uiowa.edu/news/2021/11/music-mentoring-veteran-pursues-career-school-psychology"
+    ],
+    "profiles_checked": 102,
+    "error": null,
+    "program_accepting_pages": []
+  },
+  {
+    "apa_program_number": 148,
+    "start": "https://education.uky.edu/edp/school-psychology-overview",
+    "listing_pages": [
+      "https://education.uky.edu/faculty-staff-resources",
+      "https://education.uky.edu/people",
+      "https://education.uky.edu/open-faculty-positions",
+      "https://education.uky.edu/admissions",
+      "https://education.uky.edu/research/faculty-research-awards-and-research-support",
+      "https://education.uky.edu/edp/people"
+    ],
+    "profiles_checked": 60,
+    "error": null,
+    "program_accepting_pages": []
+  },
+  {
+    "apa_program_number": 114,
+    "start": "https://epsy.ku.edu/academics/school-psychology/doctorate",
+    "listing_pages": [
+      "https://epsy.ku.edu/admission",
+      "https://epsy.ku.edu/academics/counseling-psychology/phd/student-admissions-outcomes-and-other-data-university-kansas-counseling-psychology",
+      "https://epsy.ku.edu/academics/school-psychology/doctorate/student-admissions-outcomes-and-other-data",
+      "https://epsy.ku.edu/faculty-staff",
+      "https://epsy.ku.edu/faculty",
+      "https://epsy.ku.edu/faculty-led-centers"
+    ],
+    "profiles_checked": 92,
+    "error": null,
+    "program_accepting_pages": []
+  },
+  {
+    "apa_program_number": 996,
+    "start": "https://www.lsu.edu/hss/psychology/grad/prospective-student/areas-of-specialization/school.php",
+    "listing_pages": [
+      "https://www.lsu.edu/hss/psychology/grad/prospective-student/NatureoftheProgram.php",
+      "https://www.lsu.edu/hss/psychology/faculty/index.php",
+      "https://www.lsu.edu/hss/psychology/grad/prospective-student/areas-of-specialization/school.php",
+      "https://www.lsu.edu/admissions/apply/index.php",
+      "https://www.lsu.edu/hss/psychology/grad/prospective-student/areas-of-specialization/ba.php",
+      "https://www.lsu.edu/hss/psychology/grad/prospective-student/areas-of-specialization/cbs.php"
+    ],
+    "profiles_checked": 120,
+    "error": null,
+    "program_accepting_pages": []
+  },
+  {
+    "apa_program_number": 902,
+    "start": "https://psychology.illinoisstate.edu/graduate/school-psychology/doctorate-in-school-psychology/",
+    "listing_pages": [
+      "https://psychology.illinoisstate.edu/faculty-staff/",
+      "https://psychology.illinoisstate.edu/academics/doctorate-in-school-psychology/admissions/",
+      "https://psychology.illinoisstate.edu/faculty-staff/graduate-faculty/",
+      "https://IllinoisState.edu/admissions",
+      "https://psychology.illinoisstate.edu/graduate/school-psychology/doctorate-in-school-psychology/"
+    ],
+    "profiles_checked": 120,
+    "error": null,
+    "program_accepting_pages": []
+  },
+  {
+    "apa_program_number": 2052,
+    "start": "https://www.umb.edu/academics/program-finder/school-psychology-phd/",
+    "listing_pages": [
+      "https://www.umb.edu/admissions/",
+      "https://www.umb.edu/faculty-staff/",
+      "https://www.umb.edu/admissions/graduate-students/apply/",
+      "https://www.umb.edu/directory/",
+      "https://www.umb.edu/admissions/visit/",
+      "https://www.umb.edu/admissions/first-year-students/"
+    ],
+    "profiles_checked": 67,
+    "error": null,
+    "program_accepting_pages": []
+  },
+  {
+    "apa_program_number": 278,
+    "start": "https://www.umass.edu/education/academics/school-psychology-phd",
+    "listing_pages": [
+      "https://www.umass.edu/education/undergraduate-advising-center/information-prospective-students",
+      "https://www.umass.edu/education/information-faculty-staff",
+      "https://www.umass.edu/education/directory-offices",
+      "https://www.umass.edu/education/about/directory",
+      "https://www.umass.edu/education/academics/school-psychology-phd/admissions"
+    ],
+    "profiles_checked": 81,
+    "error": null,
+    "program_accepting_pages": []
+  },
+  {
+    "apa_program_number": 116,
+    "start": "https://education.umd.edu/academics/programs/graduate/school-psychology-phd",
+    "listing_pages": [
+      "https://education.umd.edu/admissions",
+      "https://education.umd.edu/admissions/prospective-students",
+      "https://education.umd.edu/admissions/prospective-students/undergraduate-admissions",
+      "https://education.umd.edu/admissions/prospective-students/graduate-admissions",
+      "https://education.umd.edu/people",
+      "https://education.umd.edu/faculty-directory"
+    ],
+    "profiles_checked": 60,
+    "error": null,
+    "program_accepting_pages": []
+  },
+  {
+    "apa_program_number": 827,
+    "start": "https://www.usm.edu/graduate-programs/psychology-school.php",
+    "listing_pages": [
+      "https://www.usm.edu/admissions/?type=prospective",
+      "https://www.usm.edu/university/faculty-staff.php",
+      "https://www.usm.edu/faculty-directory/?keyword=school+psychology+program",
+      "https://www.usm.edu/psychology/school-psychology-research-labs.php",
+      "https://apps.usm.edu/itech/onlinedirectory/",
+      "https://www.usm.edu/graduate-programs/psychology-school.php"
+    ],
+    "profiles_checked": 56,
+    "error": null,
+    "program_accepting_pages": []
+  },
+  {
+    "apa_program_number": 2019,
+    "start": "https://www.umt.edu/psychology/graduates/school-psychology-phd-program/default.php",
+    "listing_pages": [
+      "https://www.umt.edu/admissions-and-financial-aid",
+      "https://www.umt.edu/admissions/default.php",
+      "https://www.umt.edu/psychology/graduates/school-psychology-phd-program/faculty.php",
+      "https://www.umt.edu/psychology/graduates/school-psychology-phd-program/student-data.php",
+      "https://directory.apps.umt.edu/",
+      "https://www.umt.edu/admissions/visit.php"
+    ],
+    "profiles_checked": 35,
+    "error": null,
+    "program_accepting_pages": [
+      "https://www.umt.edu/admissions/default.php"
+    ]
+  },
+  {
+    "apa_program_number": 1787,
+    "start": "https://bouve.northeastern.edu/ap/programs/school-psychology-phd/",
+    "listing_pages": [
+      "https://bouve.northeastern.edu/directory/",
+      "https://bouve.northeastern.edu/admissions/undergraduate-admissions/",
+      "https://bouve.northeastern.edu/admissions/graduate-admissions/",
+      "https://bouve.northeastern.edu/academics/school-of-community-health-and-behavioral-sciences/applied-psychology/faculty-and-staff-directory/",
+      "https://bouve.northeastern.edu/ap/programs/school-psychology-phd/",
+      "https://bouve.northeastern.edu/apply/"
+    ],
+    "profiles_checked": 92,
+    "error": null,
+    "program_accepting_pages": []
+  },
+  {
+    "apa_program_number": 1136,
+    "start": "https://www.cmich.edu/academics/colleges/liberal-arts-social-sciences/departments/psychology/graduate-programs/school-doctoral-program",
+    "listing_pages": [
+      "https://www.cmich.edu/academics/colleges/liberal-arts-social-sciences/about/endowed-faculty",
+      "https://www.cmich.edu/academics/colleges/liberal-arts-social-sciences/centers-institutes/psychology-centers-clinics-and-research-labs",
+      "https://www.cmich.edu/academics/colleges/liberal-arts-social-sciences/departments/psychology/graduate-programs/school-doctoral-program/faculty",
+      "https://www.cmich.edu/directory?indexCatalogue=cmich-people&page=1&pageSize=10&orderBy=Title+asc&category=&searchQuery=*",
+      "https://www.cmich.edu/offices-departments/university-communications/social-media/social-media-directory"
+    ],
+    "profiles_checked": 70,
+    "error": null,
+    "program_accepting_pages": []
+  },
+  {
+    "apa_program_number": 2221,
+    "start": "",
+    "listing_pages": [],
+    "profiles_checked": 0,
+    "error": "no website"
+  },
+  {
+    "apa_program_number": 1818,
+    "start": "https://psychology.ecu.edu/graduate/pediatric/",
+    "listing_pages": [
+      "https://www.ecu.edu/directory/",
+      "https://psychology.ecu.edu/people/",
+      "https://neuroscience.ecu.edu/faculty-mentors/",
+      "https://psychology.ecu.edu/ecu-psychology-clinic/supervising-faculty/",
+      "https://psychology.ecu.edu/graduate/pediatric/",
+      "https://psychology.ecu.edu/undergraduate/student-research-assistants/"
+    ],
+    "profiles_checked": 74,
+    "error": null,
+    "program_accepting_pages": [
+      "https://psychology.ecu.edu/undergraduate/student-research-assistants/"
+    ]
+  },
+  {
+    "apa_program_number": 2522,
+    "start": "https://cep.nmsu.edu/academic-programs/school-psychology-phd.html",
+    "listing_pages": [
+      "https://cep.nmsu.edu/facultydirectory/home.html",
+      "https://cep.nmsu.edu/facultydirectory/for-faculty.html",
+      "https://cep.nmsu.edu/facultydirectory/dr-staci-ballard.html",
+      "https://cep.nmsu.edu/facultydirectory/dr.-elsa-arroyos.html",
+      "https://cep.nmsu.edu/academic-programs/phd-admission-requirements.html",
+      "https://cep.nmsu.edu/academic-programs/school-psychology-phd.html"
+    ],
+    "profiles_checked": 34,
+    "error": null,
+    "program_accepting_pages": []
+  },
+  {
+    "apa_program_number": 309,
+    "start": "https://www.schoolpsych.msstate.edu",
+    "listing_pages": [
+      "https://www.schoolpsych.msstate.edu/directory",
+      "https://www.schoolpsych.msstate.edu/prospective-students",
+      "https://www.msstate.edu/directory",
+      "https://www.msstate.edu/directory/",
+      "https://www.schoolpsych.msstate.edu/student-data",
+      "https://www.schoolpsych.msstate.edu"
+    ],
+    "profiles_checked": 53,
+    "error": null,
+    "program_accepting_pages": []
+  },
+  {
+    "apa_program_number": 67,
+    "start": "https://education.indiana.edu/programs/graduate/doctoral/phd-school-psychology.html",
+    "listing_pages": [
+      "https://education.indiana.edu/about/directory/index.html",
+      "https://education.indiana.edu/about/directory/office-directory.html",
+      "https://education.indiana.edu/admissions/index.html",
+      "https://education.indiana.edu/faculty/index.html",
+      "https://education.indiana.edu/faculty/bookshelf/index.html",
+      "https://education.indiana.edu/faculty/governance/faculty-meetings/index.html"
+    ],
+    "profiles_checked": 120,
+    "error": null,
+    "program_accepting_pages": []
+  },
+  {
+    "apa_program_number": 951,
+    "start": "https://education.missouri.edu/educational-school-counseling-psychology/degrees-programs/school-psychology/",
+    "listing_pages": [
+      "https://cehd.missouri.edu/educational-school-counseling-psychology/people/",
+      "https://cehd.missouri.edu/educational-school-counseling-psychology/people/faculty/",
+      "https://cehd.missouri.edu/admissions/",
+      "https://cehd.missouri.edu/people/",
+      "https://cehd.missouri.edu/people/faculty/",
+      "https://cehd.missouri.edu/people/faculty-emeriti/"
+    ],
+    "profiles_checked": 120,
+    "error": null,
+    "program_accepting_pages": []
+  },
+  {
+    "apa_program_number": 886,
+    "start": "https://education.msu.edu/cepse/school-psychology/phd/",
+    "listing_pages": [
+      "https://education.msu.edu/people",
+      "https://education.msu.edu/resources/faculty-staff/communications",
+      "https://education.msu.edu/resources/faculty-staff",
+      "https://education.msu.edu/cepse/school-psychology/phd/"
+    ],
+    "profiles_checked": 43,
+    "error": null,
+    "program_accepting_pages": []
+  },
+  {
+    "apa_program_number": 313,
+    "start": "https://go.okstate.edu/graduate-academics/programs/doctoral/school-psychology-phd.html",
+    "listing_pages": [],
+    "profiles_checked": 0,
+    "error": "start page fetch failed"
+  },
+  {
+    "apa_program_number": 111,
+    "start": "https://cehs.unl.edu/edpsych/school-psychology/",
+    "listing_pages": [
+      "https://cehs.unl.edu/edpsych/edps-faculty-and-staff/",
+      "https://cehs.unl.edu/edpsych/edps-faculty-and-staff/counseling-psychology-faculty/",
+      "https://cehs.unl.edu/edpsych/edps-faculty-and-staff/developmental-learning-sciences-faculty/",
+      "https://cehs.unl.edu/edpsych/edps-faculty-and-staff/quantitative-qualitative-and-psychometric-methods-faculty/",
+      "https://cehs.unl.edu/edpsych/edps-faculty-and-staff/school-psychology-faculty/",
+      "https://cehs.unl.edu/edpsych/school-psychology-student-admissions-outcomes-and-other-data/"
+    ],
+    "profiles_checked": 47,
+    "error": null,
+    "program_accepting_pages": []
+  },
+  {
+    "apa_program_number": 35,
+    "start": "https://www.tc.columbia.edu/health-and-behavior-studies/school-psychology/degrees--requirements/school-psychology-phd/",
+    "listing_pages": [
+      "https://www.tc.columbia.edu/admission/",
+      "https://www.tc.columbia.edu/faculty-and-staff/",
+      "https://my.tc.columbia.edu/faculty",
+      "https://www.tc.columbia.edu/directory/",
+      "https://www.tc.columbia.edu/faculty-and-research/",
+      "https://www.tc.columbia.edu/health-studies-applied-educational-psychology/school-psychology/faculty/"
+    ],
+    "profiles_checked": 61,
+    "error": null,
+    "program_accepting_pages": []
+  },
+  {
+    "apa_program_number": 252,
+    "start": "https://ed.lehigh.edu/academics/degrees/doctoral/school-psychology-phd-program",
+    "listing_pages": [],
+    "profiles_checked": 0,
+    "error": "start page fetch failed"
+  },
+  {
+    "apa_program_number": 45,
+    "start": "https://ed.psu.edu/epcse/school-psychology",
+    "listing_pages": [],
+    "profiles_checked": 0,
+    "error": "start page fetch failed"
+  },
+  {
+    "apa_program_number": 51,
+    "start": " https://www.temple.edu/academics/degree-programs/school-psychology-phd-ed-scps-phd",
+    "listing_pages": [],
+    "profiles_checked": 0,
+    "error": "start page fetch failed"
+  },
+  {
+    "apa_program_number": 232,
+    "start": "https://psychology.chass.ncsu.edu/school/",
+    "listing_pages": [
+      "https://psychology.chass.ncsu.edu/graduate/admission-info/",
+      "https://psychology.chass.ncsu.edu/graduate/school/admission-info/",
+      "https://chass.ncsu.edu/group/psychology/psychology-faculty/school-psychology/",
+      "https://psychology.chass.ncsu.edu/faculty-staff-resources/",
+      "https://chass.ncsu.edu/group/psychology/",
+      "https://mypack.ncsu.edu/"
+    ],
+    "profiles_checked": 106,
+    "error": null,
+    "program_accepting_pages": []
+  },
+  {
+    "apa_program_number": 57,
+    "start": "https://www.kent.edu/ehhs/ldes/spsy/phd-program",
+    "listing_pages": [
+      "https://keys.kent.edu/ePROD/bwgkphon.p_viewpeopledirectory",
+      "https://www.kent.edu/admissions/request-info",
+      "https://www.kent.edu/ehs/faculty-staff",
+      "https://www.kent.edu/ehs/faculty-staff/ehs-faculty-staff-directory",
+      "https://fsportal.ehs.kent.edu",
+      "https://www.kent.edu/ehs/graduate-programs"
+    ],
+    "profiles_checked": 69,
+    "error": null,
+    "program_accepting_pages": []
+  },
+  {
+    "apa_program_number": 97,
+    "start": "https://www.cehd.umn.edu/edpsych/academics/schoolpsych/",
+    "listing_pages": [
+      "https://edpsych.umn.edu/ed-psych-faculty-honored-2024-cehd-faculty-recognition-event",
+      "https://www.cehd.umn.edu/people",
+      "https://www.cehd.umn.edu/edpsych/academics/schoolpsych/"
+    ],
+    "profiles_checked": 120,
+    "error": null,
+    "program_accepting_pages": []
+  },
+  {
+    "apa_program_number": 32,
+    "start": "https://thecollege.syr.edu/psychology/graduate-study-psychology/school-psychology-graduate-program-overview/",
+    "listing_pages": [
+      "https://thecollege.syr.edu/admissions",
+      "https://thecollege.syr.edu/people/faculty/",
+      "https://thecollege.syr.edu/people/part-time/",
+      "https://thecollege.syr.edu/people/emeriti/",
+      "https://thecollege.syr.edu/information-faculty-and-staff/",
+      "https://thecollege.syr.edu/information-prospective-students/"
+    ],
+    "profiles_checked": 120,
+    "error": null,
+    "program_accepting_pages": []
+  },
+  {
+    "apa_program_number": 285,
+    "start": "https://education.uoregon.edu/spsy",
+    "listing_pages": [
+      "https://education.uoregon.edu/admissions",
+      "https://education.uoregon.edu/faculty-and-staff",
+      "https://education.uoregon.edu/directory/faculty",
+      "https://education.uoregon.edu/directory/spsy",
+      "https://education.uoregon.edu/directory/emeritus-faculty",
+      "https://education.uoregon.edu/honoring-native-peoples-and-lands"
+    ],
+    "profiles_checked": 120,
+    "error": null,
+    "program_accepting_pages": []
+  },
+  {
+    "apa_program_number": 16,
+    "start": "https://www.fordham.edu/graduate-school-of-education/academics/degree-and-certificate-programs/become-a-school-psychologist/",
+    "listing_pages": [
+      "https://www.fordham.edu/graduate-school-of-education/admissions/",
+      "https://www.fordham.edu/graduate-school-of-education/faculty/",
+      "https://www.fordham.edu/graduate-school-of-education/faculty/directory/",
+      "https://www.fordham.edu/academics/research/faculty-research/",
+      "https://411.fordham.edu/",
+      "https://www.fordham.edu/graduate-school-of-education/admissions/events/"
+    ],
+    "profiles_checked": 120,
+    "error": null,
+    "program_accepting_pages": []
+  },
+  {
+    "apa_program_number": 1086,
+    "start": "https://epc.utk.edu/school-psychology/",
+    "listing_pages": [
+      "https://cehhs.utk.edu/admissions-and-aid-overview/",
+      "https://cehhs.utk.edu/directory/",
+      "https://cehhs.utk.edu/admissions-and-aid-overview/financial-aid-scholarships/",
+      "https://epc.utk.edu/school-psychology/"
+    ],
+    "profiles_checked": 18,
+    "error": null,
+    "program_accepting_pages": []
+  },
+  {
+    "apa_program_number": 1812,
+    "start": "https://www.memphis.edu/psychology/graduate/schabout.php",
+    "listing_pages": [
+      "https://www.memphis.edu/psychology/people/",
+      "https://www.memphis.edu/psychology/graduate/clinadmission.php",
+      "https://www.memphis.edu/psychology/graduate/experfaculty.php",
+      "https://www.memphis.edu/psychology/graduate/experadmission.php",
+      "https://www.memphis.edu/psychology/graduate/schfaculty.php",
+      "https://www.memphis.edu/psychology/graduate/msgpadmission.php"
+    ],
+    "profiles_checked": 84,
+    "error": null,
+    "program_accepting_pages": []
+  },
+  {
+    "apa_program_number": 131,
+    "start": "https://ed.unc.edu/academics/programs/school-psychology/about-the-program/",
+    "listing_pages": [
+      "https://ed.unc.edu/admissions-aid/",
+      "https://ed.unc.edu/people/",
+      "https://ed.unc.edu/academics/programs/school-psychology/people/",
+      "https://ed.unc.edu/admissions-aid/graduate/faqs/",
+      "https://ed.unc.edu/academics/programs/school-psychology/about-the-program/"
+    ],
+    "profiles_checked": 120,
+    "error": null,
+    "program_accepting_pages": []
+  },
+  {
+    "apa_program_number": 137,
+    "start": "https://education.gsu.edu/program/phd-school-psychology/ ",
+    "listing_pages": [
+      "https://education.gsu.edu/cps/cps-graduate-admissions-statistics/",
+      "https://education.gsu.edu/cehd-faculty-and-staff-awards/",
+      "https://mycehd.gsu.edu/faculty/",
+      "https://mycehd.gsu.edu/public-relations-and-events/how-to-get-into-our-directory/",
+      "https://faculty.gsu.edu/faculty-handbook/",
+      "https://education.gsu.edu/directory/"
+    ],
+    "profiles_checked": 120,
+    "error": null,
+    "program_accepting_pages": []
+  },
+  {
+    "apa_program_number": 1620,
+    "start": "https://uh.edu/education/degree-programs/school-psyc-phd/",
+    "listing_pages": [
+      "https://uh.edu/education/about/directory/index.php",
+      "https://uh.edu/education/faculty-and-staff/",
+      "https://uh.edu/education/faculty-and-staff/faculty-staff-awards.php",
+      "https://uh.edu/education/faculty-and-staff/associate-dean-office.php",
+      "https://uh.edu/education/admissions-and-financial-aid/index.php",
+      "https://uh.edu/education/admissions-and-financial-aid/undergraduate/index.php"
+    ],
+    "profiles_checked": 58,
+    "error": null,
+    "program_accepting_pages": []
+  },
+  {
+    "apa_program_number": 2134,
+    "start": "https://ehe.osu.edu/graduate/school-psychology/school-psychology-phd",
+    "listing_pages": [
+      "https://ehe.osu.edu/directory/research-interests/",
+      "https://ehe.osu.edu/directory",
+      "https://ehe.osu.edu/node/15775",
+      "https://portal.ehe.osu.edu",
+      "https://gradsch.osu.edu/faculty-and-staff/fellowship-program",
+      "https://ehe.osu.edu/graduate/school-psychology/school-psychology-phd"
+    ],
+    "profiles_checked": 120,
+    "error": null,
+    "program_accepting_pages": []
+  },
+  {
+    "apa_program_number": 1602,
+    "start": "https://www.duq.edu/academics/colleges-and-schools/education/programs-and-degrees/graduate-programs/phd-school-psychology/index.php",
+    "listing_pages": [
+      "https://www.duq.edu/admission-and-aid/index.php",
+      "https://www.duq.edu/admission-and-aid/how-to-apply/undergraduate/connect-with-counselor.php",
+      "https://www.duq.edu/research/faculty-research/index.php",
+      "https://www.duq.edu/faculty-and-staff/index.php",
+      "https://www.duq.edu/admission-and-aid/how-to-apply/international/index.php",
+      "https://www.duq.edu/academics/colleges-and-schools/education/programs-and-degrees/graduate-programs/phd-school-psychology/SPECIAL_LINKadmissionsFREEDUQUESNE"
+    ],
+    "profiles_checked": 117,
+    "error": null,
+    "program_accepting_pages": []
+  },
+  {
+    "apa_program_number": 1696,
+    "start": "https://twu.edu/psychology-philosophy/prospective-graduate-students/school-psychology/",
+    "listing_pages": [
+      "https://twu.edu/faculty-staff/",
+      "https://twu.edu/admissions/",
+      "https://twu.edu/faculty-profiles/",
+      "https://twu.edu/psychology-philosophy/prospective-graduate-students/",
+      "https://twu.edu/psychology-philosophy/prospective-graduate-students/psychological-science/program-faculty/",
+      "https://twu.edu/psychology-philosophy/prospective-graduate-students/counseling-psychology/program-faculty/"
+    ],
+    "profiles_checked": 50,
+    "error": null,
+    "program_accepting_pages": []
+  },
+  {
+    "apa_program_number": 847,
+    "start": "https://sc.edu/study/colleges_schools/artsandsciences/psychology/my_psych/current_grad_students/school_program/training_resources.php",
+    "listing_pages": [
+      "https://sc.edu/study/colleges_schools/artsandsciences/psychology/our_people/index.php",
+      "https://www.sc.edu/facultystaff/",
+      "https://sc.edu/about/directory/",
+      "https://sc.edu/study/colleges_schools/artsandsciences/psychology/our_people/directory/index.php",
+      "https://sc.edu/study/colleges_schools/artsandsciences/psychology/our_people/clinical_community_faculty.php",
+      "https://sc.edu/study/colleges_schools/artsandsciences/psychology/our_people/quantitative_faculty.php"
+    ],
+    "profiles_checked": 120,
+    "error": null,
+    "program_accepting_pages": []
+  },
+  {
+    "apa_program_number": 170,
+    "start": "https://epsy.tamu.edu/academics/school-psychology-doctoral/",
+    "listing_pages": [
+      "https://epsy.tamu.edu/admissions/",
+      "https://epsy.tamu.edu/admissions/bachelors-admissions/",
+      "https://epsy.tamu.edu/admissions/masters-admissions/",
+      "https://epsy.tamu.edu/admissions/doctoral-admissions/",
+      "https://epsy.tamu.edu/about/faculty/",
+      "https://epsy.tamu.edu/academics/school-psychology-doctoral/spsy-student-admissions-outcomes-and-other-data/"
+    ],
+    "profiles_checked": 85,
+    "error": null,
+    "program_accepting_pages": []
+  },
+  {
+    "apa_program_number": 2446,
+    "start": "https://cehs.usu.edu/psychology/doctoral/school-psychology",
+    "listing_pages": [
+      "https://cehs.usu.edu/psychology/people/index.php",
+      "https://directory.usu.edu/",
+      "https://cehs.usu.edu/psychology/research/labs/index.php",
+      "https://cehs.usu.edu/psychology/people/terrell-krista.php",
+      "https://cehs.usu.edu/psychology/people/campbell-meg.php",
+      "https://cehs.usu.edu/psychology/people/boman-becca.php"
+    ],
+    "profiles_checked": 120,
+    "error": null,
+    "program_accepting_pages": []
+  },
+  {
+    "apa_program_number": 91,
+    "start": "https://edpsych.education.wisc.edu/academics/school-psychology/",
+    "listing_pages": [
+      "https://edpsych.education.wisc.edu/admissions/",
+      "https://edpsych.education.wisc.edu/people/",
+      "https://edpsych.education.wisc.edu/academics/school-psychology/"
+    ],
+    "profiles_checked": 23,
+    "error": null,
+    "program_accepting_pages": []
+  },
+  {
+    "apa_program_number": 193,
+    "start": "https://ed-psych.utah.edu/school-psych/",
+    "listing_pages": [
+      "https://ed-psych.utah.edu/admissions/index.php",
+      "https://ed-psych.utah.edu/faculty/",
+      "https://ed-psych.utah.edu/faculty/index.php",
+      "https://admissions.utah.edu/apply/",
+      "https://faculty.utah.edu/activityreport/login.hml",
+      "https://people.utah.edu/"
+    ],
+    "profiles_checked": 71,
+    "error": null,
+    "program_accepting_pages": []
+  },
+  {
+    "apa_program_number": 271,
+    "start": "https://education.uw.edu/schoolpsychology",
+    "listing_pages": [
+      "https://education.uw.edu/about/directory",
+      "https://education.uw.edu/admissions",
+      "https://education.uw.edu/admissions/apply-grad",
+      "https://education.uw.edu/admissions/undergraduate",
+      "https://education.uw.edu/foryou/facstaff",
+      "https://uw.edu/directory/"
+    ],
+    "profiles_checked": 120,
+    "error": null,
+    "program_accepting_pages": []
+  },
+  {
+    "apa_program_number": 306,
+    "start": "https://uwm.edu/education/academics/school-psychology-phd/",
+    "listing_pages": [
+      "https://uwm.edu/education/directory/",
+      "https://uwm.edu/faculty-staff/",
+      "https://uwm.edu/directory/",
+      "https://uwm.edu/education/academics/school-psychology-phd/",
+      "https://uwm.edu/education/intranet/",
+      "https://uwm.edu/admission/"
+    ],
+    "profiles_checked": 120,
+    "error": null,
+    "program_accepting_pages": []
+  },
+  {
+    "apa_program_number": 2482,
+    "start": "https://schoolpsychology.soe.baylor.edu/phd-waco",
+    "listing_pages": [
+      "https://schoolpsychology.soe.baylor.edu/about-school-psychology/faculty",
+      "https://schoolpsychology.soe.baylor.edu/admissions/how-apply",
+      "https://schoolpsychology.soe.baylor.edu/eds-admission-outcome-data",
+      "https://schoolpsychology.soe.baylor.edu/phd-waco/student-admissions-outcomes-and-other-data",
+      "https://go.web.baylor.edu/directory",
+      "https://law.baylor.edu/admissions"
+    ],
+    "profiles_checked": 120,
+    "error": null,
+    "program_accepting_pages": []
+  },
+  {
+    "apa_program_number": 2056,
+    "start": "https://cech.uc.edu/schools/human-services/graduate-programs/school-psychology-graduate-programs/school-psychology-phd.html",
+    "listing_pages": [
+      "https://cech.uc.edu/about/directory.html",
+      "https://cech.uc.edu/Academics/school-of-education/graduate-programs/ed-studies/program-faculty.html",
+      "https://cech.uc.edu/Academics/school-of-education/graduate-programs/edustudiesphd/qmrmphd/faculty.html",
+      "https://cech.uc.edu/Academics/school-of-education/graduate-programs/instructional-design-and-technology/facultyandstaff.html",
+      "https://cech.uc.edu/Academics/school-of-education/idd-education-center/tap/tap-admissions.html"
+    ],
+    "profiles_checked": 120,
+    "error": null,
+    "program_accepting_pages": []
+  },
+  {
+    "apa_program_number": 11,
+    "start": "https://psychology.uconn.edu/phd/clinical-psychology/",
+    "listing_pages": [
+      "https://psychology.uconn.edu/faculty-directory/",
+      "https://psychology.uconn.edu/graduate-student-directory/",
+      "https://psychology.uconn.edu/phd/admissions-faq-2/",
+      "https://psychology.uconn.edu/graduate/admissions/",
+      "https://psychology.uconn.edu/faculty-directory/?&tag=Clinical%20Psychology",
+      "https://psychology.uconn.edu/phd/clinical-psychology/"
+    ],
+    "profiles_checked": 120,
+    "error": null,
+    "program_accepting_pages": [
+      "https://psychology.uconn.edu/faculty-directory/",
+      "https://psychology.uconn.edu/faculty-directory/?&tag=Clinical%20Psychology"
+    ]
+  },
+  {
+    "apa_program_number": 119,
+    "start": "https://www.american.edu/cas/psychology/clinical/",
+    "listing_pages": [
+      "https://www.american.edu/admissions/index.cfm",
+      "https://www.american.edu/cas/psychology/clinical/"
+    ],
+    "profiles_checked": 44,
+    "error": null,
+    "program_accepting_pages": []
+  },
+  {
+    "apa_program_number": 134,
+    "start": "http://psychology.emory.edu/home/graduate/clinical-science.html",
+    "listing_pages": [
+      "http://psychology.emory.edu/home/graduate/graduate/admission.html",
+      "http://psychology.emory.edu/home/graduate/research/research-labs.html",
+      "http://psychology.emory.edu/home/graduate/people/index.html",
+      "http://psychology.emory.edu/home/graduate/people/emeritus.html",
+      "http://psychology.emory.edu/home/graduate/people/faculty-other.html",
+      "http://psychology.emory.edu/home/graduate/clinical-science.html"
+    ],
+    "profiles_checked": 99,
+    "error": null,
+    "program_accepting_pages": []
+  },
+  {
+    "apa_program_number": 937,
+    "start": "https://psychology.msu.edu/programs/clinical/index.html",
+    "listing_pages": [
+      "https://psychology.msu.edu/people",
+      "https://psychology.msu.edu/"
+    ],
+    "profiles_checked": 20,
+    "error": null,
+    "start_fallback": "https://psychology.msu.edu/",
+    "program_accepting_pages": []
+  },
+  {
+    "apa_program_number": 314,
+    "start": "https://medschool.usuhs.edu/academics/geo/phd-in-clinical-psychology ",
+    "listing_pages": [
+      "https://medschool.usuhs.edu/mps/faculty",
+      "https://www.usuhs.edu/admissions",
+      "https://people.usuhs.edu/",
+      "https://medschool.usuhs.edu/geo/admissions/apply-for-graduate-admission",
+      "https://medschool.usuhs.edu/academics/geo/phd-in-clinical-psychology "
+    ],
+    "profiles_checked": 69,
+    "error": null,
+    "program_accepting_pages": []
+  },
+  {
+    "apa_program_number": 76,
+    "start": "https://psch.uic.edu/programs/graduate-studies/reseach-clinical-programs-gradudate-studies-clinical/",
+    "listing_pages": [
+      "https://psch.uic.edu/prospective/",
+      "https://psch.uic.edu/people/",
+      "https://psch.uic.edu/people/faculty/",
+      "https://psch.uic.edu/resources/faculty-staff-resources/",
+      "https://psch.uic.edu/department/faculty-research-new/",
+      "https://psch.uic.edu/programs/graduate-studies/reseach-clinical-programs-gradudate-studies-clinical/clinical-faculty/"
+    ],
+    "profiles_checked": 109,
+    "error": null,
+    "program_accepting_pages": [
+      "https://psch.uic.edu/prospective/"
+    ]
+  },
+  {
+    "apa_program_number": 274,
+    "start": "https://clinicalpsych.unc.edu/",
+    "listing_pages": [
+      "https://clinicalpsych.unc.edu/people/",
+      "https://clinicalpsych.unc.edu/people/faculty/",
+      "https://clinicalpsych.unc.edu/for-students/",
+      "https://clinicalpsych.unc.edu/people/graduate-students/",
+      "https://clinicalpsych.unc.edu/people/postdoctoral-fellows/",
+      "https://clinicalpsych.unc.edu/people/staff/"
+    ],
+    "profiles_checked": 14,
+    "error": null,
+    "program_accepting_pages": [
+      "https://clinicalpsych.unc.edu/people/faculty/"
+    ]
   }
 ]

@@ -120,14 +120,14 @@ table.miss tr:nth-child(even) td { background: var(--row-alt); }
     <input type="search" id="mq" placeholder="Search institution, department, state...">
     <select id="mtype">
       <option value="">Reason: all</option>
-      <option value="crawl_failed">Searched, site not read</option>
+      <option value="crawl_failed">Broken (site couldn't be scraped)</option>
       <option value="excluded">Not searched (PsyD / School / other)</option>
     </select>
     <span class="sub"><span id="missShown">0</span> shown</span>
   </div>
   <main>
-    <p class="note">APA lists 442 accredited doctoral programs. Only Clinical, Counseling and combined
-      Clinical-Counseling <b>PhD</b> programs were searched. "Site not read" means the program was in scope but its
+    <p class="note">APA lists 442 accredited doctoral programs. Only Clinical, Counseling, School and combined
+      <b>PhD</b> programs were searched (PsyD programs skipped). "Broken" means the program was in scope but its
       site blocked the scraper or no faculty list was found &mdash; check those by hand.</p>
     <div class="tbl-wrap"><table class="miss">
       <thead><tr><th>Institution</th><th>Department</th><th>State</th><th>Area</th><th>Degree</th><th>Reason</th></tr></thead>
@@ -352,7 +352,7 @@ table.miss tr:nth-child(even) td { background: var(--row-alt); }
 
   // Programs not covered tab
   var MISSING = JSON.parse(document.getElementById("missing").textContent || "[]");
-  var TYPE_LABEL = { excluded: "Not searched", crawl_failed: "Site not read" };
+  var TYPE_LABEL = { excluded: "Not searched", crawl_failed: "Broken" };
   $("missTotal").textContent = MISSING.length;
   function renderMissing() {
     var q = $("mq").value.trim().toLowerCase().split(/\s+/).filter(Boolean), t = $("mtype").value;

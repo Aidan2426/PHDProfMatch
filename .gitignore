@@ -3,3 +3,4 @@ cache/
 backup_*/
 data/*.log
 __pycache__/
+data/*_retry.json

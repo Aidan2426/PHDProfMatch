@@ -373,6 +373,40 @@
     "named_on_program_accepting_page": []
   },
   {
+    "name": "Amy Mikolajewski",
+    "profile_url": "https://www.lsu.edu/hss/psychology/faculty/clinical/mikolajewski.php",
+    "institution": "Louisiana State University",
+    "department": "Department of Psychology",
+    "program_area": "School Psychology",
+    "state": "LA",
+    "apa_program_number": 996,
+    "program_website": "https://www.lsu.edu/hss/psychology/grad/prospective-student/areas-of-specialization/school.php",
+    "topic_categories": [
+      "antisocial_conduct"
+    ],
+    "topic_score": 7,
+    "core_terms": 2,
+    "youth_focus": true,
+    "matched_terms": {
+      "antisocial_conduct": [
+        "disruptive behaviors",
+        "externalizing",
+        "oppositional defiant"
+      ]
+    },
+    "evidence": [
+      "…| Licensed Clinical Psychologist - State of Louisiana - License #1419 Representative Publications Mikolajewski, A. J. & Scheeringa, M. S. (2022). Links between oppositional defiant disorder dimensions, psychophysiology, and interpersonal versus non-interpersonal trauma. Journal of Psychopathology and Behavioral Assessment, 44, 261-275. do…",
+      "…tinuity between early childhood symptoms and later psychopathology. Inform the development of individualized approaches to the treatment of children exhibiting disruptive behaviors. Education Ph.D., Clinical Psychology, Florida State University M.S., Clinical Psychology, Florida State University B.S., Psychology, Michigan State University…"
+    ],
+    "accepting": {
+      "status": "accepting",
+      "evidence": "…LA 70803 Email: amikolajewski@lsu.edu View Dr. Mikolajewski's CV. View Dr. Mikolajewski's lab website. Dr. Mikolajewski will be accepting students for Fall 2027. Research Interests My program of research is focused on understanding the etiology, course, and comorbid…",
+      "current_cycle": true,
+      "page_mentions_2027": true
+    },
+    "named_on_program_accepting_page": []
+  },
+  {
     "name": "Leslie Leve",
     "profile_url": "https://education.uoregon.edu/directory/cpsy/all/leve",
     "institution": "University of Oregon",
@@ -655,6 +689,44 @@
     "state": "NC",
     "apa_program_number": 1734,
     "program_website": "https://psychology.ecu.edu/graduate/clinical/",
+    "topic_categories": [
+      "adverse_childhood_experiences",
+      "recidivism_prevention"
+    ],
+    "topic_score": 7,
+    "core_terms": 2,
+    "youth_focus": false,
+    "matched_terms": {
+      "adverse_childhood_experiences": [
+        "ACEs",
+        "adverse childhood experiences"
+      ],
+      "recidivism_prevention": [
+        "forensic"
+      ]
+    },
+    "evidence": [
+      "…pkins University using Motivational Interviewing to promote multiple health behavior change. Alex’s primary research interest includes the relationship between adverse childhood experiences (ACEs) and chronic diseases. He completed his dissertation project at ECU Family Medicine, where he evaluated the effectiveness of a yearlong organizational in…",
+      "…onal Interviewing to promote multiple health behavior change. Alex’s primary research interest includes the relationship between adverse childhood experiences (ACEs) and chronic diseases. He completed his dissertation project at ECU Family Medicine, where he evaluated the effectiveness of a yearlong organizational interven…",
+      "…esis focused on illness perception among CVPR patients. She completed her pre-doctoral internship at the Alaska Psychiatric Institute, where she specialized in forensic psychology and restoration of competency to stand trial. Ashlan’s interests lie in forensics and severe and persistent mental illness. Her doctoral dissertatio…"
+    ],
+    "accepting": {
+      "status": "accepting",
+      "evidence": "…Address Department of Psychology Mail Stop 565 East Carolina University 1000 E. 5th St. Greenville, NC 27858-4353 I am accepting doctoral students for the 2027-2028 academic year I encourage interested students to thoroughly investigate the Clinical Health Psycholog…",
+      "current_cycle": true,
+      "page_mentions_2027": true
+    },
+    "named_on_program_accepting_page": []
+  },
+  {
+    "name": "Dr. Matthew Whited",
+    "profile_url": "https://psychology.ecu.edu/people/whited/",
+    "institution": "East Carolina University",
+    "department": "Psychology Department",
+    "program_area": "School Psychology",
+    "state": "NC",
+    "apa_program_number": 1818,
+    "program_website": "https://psychology.ecu.edu/graduate/pediatric/",
     "topic_categories": [
       "adverse_childhood_experiences",
       "recidivism_prevention"
@@ -1293,6 +1365,69 @@
     "named_on_program_accepting_page": []
   },
   {
+    "name": "Dorothy L. Espelage",
+    "profile_url": "https://ed.unc.edu/people/dorothy-espelage/",
+    "institution": "University of North Carolina, Chapel Hill",
+    "department": "School Psychology Program / School of Education",
+    "program_area": "School Psychology",
+    "state": "NC",
+    "apa_program_number": 131,
+    "program_website": "https://ed.unc.edu/academics/programs/school-psychology/about-the-program/",
+    "topic_categories": [
+      "adverse_childhood_experiences",
+      "antisocial_conduct",
+      "juvenile_delinquency",
+      "recidivism_prevention"
+    ],
+    "topic_score": 25,
+    "core_terms": 7,
+    "youth_focus": true,
+    "matched_terms": {
+      "adverse_childhood_experiences": [
+        "adverse childhood experiences",
+        "child abuse",
+        "child maltreatment",
+        "child welfare"
+      ],
+      "juvenile_delinquency": [
+        "delinquency",
+        "delinquent",
+        "juvenile justice",
+        "juvenile offenders",
+        "juvenile offending",
+        "school violence",
+        "youth violence"
+      ],
+      "antisocial_conduct": [
+        "aggression",
+        "aggressive behavior",
+        "aggressive behaviors",
+        "antisocial",
+        "bullying",
+        "externalizing"
+      ],
+      "recidivism_prevention": [
+        "violence prevention",
+        "youth violence prevention"
+      ]
+    },
+    "evidence": [
+      "…Ports, K. A., Basile, K. C., Espelage, D., & David-Ferdon, C. F. (2019). Understanding the Buffering Effects of Protective Factors on the Relationship between Adverse Childhood Experiences and Teen Dating Violence Perpetration. Journal of Youth and Adolescence . Published. https://doi.org/10.1007/s10964-019-01028-9 Walters, G. D., & Espelage, D.…",
+      "…pelage, D. (2025). Classes of childhood violence victimization and associations with adulthood victimization and mental health in sexual minority young adults. Child Abuse and Neglect , 167 . https://doi.org/10.1016/j.chiabu.2025.107597 Fensterstock, N., Watson, K. R., Robinson, L. E., Warri, V. R., Garcia, A. A., Wu, C., Hogenka…",
+      "…//doi.org/10.1007/s10964-024-01968-x Hong, J. S., Kim, D. H., Espelage, D., Taylor, R. J., Voisin, D. R., & Boone, C. (2024). Subtypes of Bullying and Friends’ Delinquency: Is Religiosity a Moderator?. Review of Religious Research , 66 (2), 101–126. https://doi.org/10.1177/0034673X241238411 McMahon, S. D., Zinter, K. E., Cafaro,…",
+      "…C., & Robinson, L. (2021). A Meta-Analysis of Longitudinal Partial Correlations Between School Violence and Mental Health, School Performance, and Criminal or Delinquent Acts. Psychological Bulletin , 147 (2), 115–133. https://doi.org/10.1037/bul0000314 Polanin, J. R., Espelage, D., Grotpeter, J. K., Ingram, K., Michaelson, L.,…",
+      "…, and Mental Health. Youth and Society , 52 (7), 1238–1258. https://doi.org/10.1177/0044118X19866071 Walters, G. D., & Espelage, D. (2020). Peer Victimization, Antisocial Cognition, and Delinquency in Early Adolescent Schoolchildren: A Test of the Person–Situation Interface. Journal of School Violence , 19 (4), 512–524. https://…",
+      "…021-00613-7 Hong, J. S., Hsieh, Y. P., Burlaka, V., Ortega, R. M., Espelage, D., & Pineros-Leano, M. (2022). Do Caregivers’ Health Conditions Impact Children’s Externalizing Behavior? The Roles of Caregivers’ Parenting Frustration and Family Cohesion. Child and Adolescent Social Work Journal , 39 (4), 445–454. https://doi.org/10.10…"
+    ],
+    "accepting": {
+      "status": "unknown",
+      "evidence": null,
+      "current_cycle": false,
+      "page_mentions_2027": false
+    },
+    "named_on_program_accepting_page": []
+  },
+  {
     "name": "Charles M. Borduin",
     "profile_url": "https://psychology.missouri.edu/people/borduin",
     "institution": "University of Missouri, Columbia",
@@ -1341,6 +1476,53 @@
       "evidence": null,
       "current_cycle": false,
       "page_mentions_2027": false
+    },
+    "named_on_program_accepting_page": []
+  },
+  {
+    "name": "Roger Mills-Koonce",
+    "profile_url": "https://ed.unc.edu/people/roger-mills-koonce/",
+    "institution": "University of North Carolina, Chapel Hill",
+    "department": "School Psychology Program / School of Education",
+    "program_area": "School Psychology",
+    "state": "NC",
+    "apa_program_number": 131,
+    "program_website": "https://ed.unc.edu/academics/programs/school-psychology/about-the-program/",
+    "topic_categories": [
+      "adverse_childhood_experiences",
+      "antisocial_conduct"
+    ],
+    "topic_score": 20,
+    "core_terms": 6,
+    "youth_focus": true,
+    "matched_terms": {
+      "adverse_childhood_experiences": [
+        "child abuse",
+        "child maltreatment",
+        "childhood adversity",
+        "early adversity",
+        "early life adversity"
+      ],
+      "antisocial_conduct": [
+        "aggression",
+        "callous unemotional",
+        "callous-unemotional",
+        "conduct problems",
+        "externalizing",
+        "oppositional defiant"
+      ]
+    },
+    "evidence": [
+      "…ependent Research PSYC 210, Statistical Principles of Psychological Research PSYC 250, Child Development Funded Research “Exploring Mechanisms Linking Maternal Childhood Adversity to Adolescent Psychopathology: The Role of Early Childhood Deprivation and Threat.”; NIH National Institute of Child Health and Human Development (NICHD), $427…",
+      "…ntal Trajectories of Depression and Suicide Among LGBTQ people of color”; National Institute of Mental Health, $40,496. (November 1, 2023 – October 31, 2024). “Early Life Adversity and the Developmental Programming of Neurocognitive and Behavioral Risk: A Longitudinal Investigation of Early Childhood Telomere Biology”, Mills-Koonce, R., C…",
+      "…Hill, Psychology Areas of Expertise Psychobiology of parenting, parent-child relationships, and self-regulation in early childhood The developmental origins of conduct problems and prosocial behaviors Health and well-being of LGBTQ parents and children Background Prior to joining the UNC School of Education in 2018, Dr. Mills-Koonce w…",
+      "…social correlates of social, emotional, and behavioral functioning in early childhood and middle childhood with an emphasis on early onset conduct problems and callous-unemotional behaviors in young children. His third research interest focuses on the health and well-being of LGBTQ parents and children. Across each domain of research, Dr…"
+    ],
+    "accepting": {
+      "status": "unknown",
+      "evidence": null,
+      "current_cycle": false,
+      "page_mentions_2027": true
     },
     "named_on_program_accepting_page": []
   },
@@ -1621,6 +1803,44 @@
     ]
   },
   {
+    "name": "UConn Cookie Information",
+    "profile_url": "https://psychology.uconn.edu/person/jeffrey-burke/",
+    "institution": "University of Connecticut",
+    "department": "Department of Psychological Sciences,  U-1020",
+    "program_area": "Clinical Psychology",
+    "state": "CT",
+    "apa_program_number": 11,
+    "program_website": "https://psychology.uconn.edu/phd/clinical-psychology/",
+    "topic_categories": [
+      "antisocial_conduct"
+    ],
+    "topic_score": 13,
+    "core_terms": 4,
+    "youth_focus": true,
+    "matched_terms": {
+      "antisocial_conduct": [
+        "conduct disorder",
+        "conduct disorders",
+        "disruptive behavior",
+        "disruptive behaviour",
+        "externalizing",
+        "oppositional defiant",
+        "psychopathic"
+      ]
+    },
+    "evidence": [
+      "…cticut Research Interests Dr. Burke’s interests involve understanding the etiology, developmental course and outcomes related to oppositional defiant disorder, conduct disorder and attention deficit hyperactivity disorder. His work includes a focus on irritability as a component of oppositional defiant disorder, which raises the risk…",
+      "…0441-6 Burke, J.D., Butler, E. J., Shaughnessy, S., Karlovich, A. R. & Evans, S. C. (2024). Evidence-based Assessment of DSM-5 Disruptive, Impulse Control, and Conduct Disorders. Assessment, 31(1), 75-93.[ ]doi: 10.1177/10731911231188739 Burke, J.D., Johnston, O. G., & Perkins, A. G. (2022). Where should psychopathic traits be placed i…"
+    ],
+    "accepting": {
+      "status": "unknown",
+      "evidence": null,
+      "current_cycle": false,
+      "page_mentions_2027": false
+    },
+    "named_on_program_accepting_page": []
+  },
+  {
     "name": "David Scherer",
     "profile_url": "https://www.umass.edu/psychological-brain-sciences/about/directory/david-scherer",
     "institution": "University of Massachusetts Amherst",
@@ -1651,6 +1871,47 @@
       "…sk behaviors: Differences among frontier, rural, and urban school counselors. The Rural Educator, 21, 22-27 . Hoyt, S. & Scherer, D. G. (1998). Female juvenile delinquency: Misunderstood by the juvenile justice system, neglected by social science. Law and Human Behavior, 22, 81-107. Henggeler, S. W., Melton, G. B., Brondino, M. J…",
       "…ontier, rural, and urban school counselors. The Rural Educator, 21, 22-27 . Hoyt, S. & Scherer, D. G. (1998). Female juvenile delinquency: Misunderstood by the juvenile justice system, neglected by social science. Law and Human Behavior, 22, 81-107. Henggeler, S. W., Melton, G. B., Brondino, M. J., Scherer, D. G. & Hanley, J. H. (1997…",
       "…stem, neglected by social science. Law and Human Behavior, 22, 81-107. Henggeler, S. W., Melton, G. B., Brondino, M. J., Scherer, D. G. & Hanley, J. H. (1997). Multisystemic therapy with violent and chronic juvenile offenders and their families: The role of treatment fidelity in successful dissemination. Journal of Consulting and Clinical…"
+    ],
+    "accepting": {
+      "status": "unknown",
+      "evidence": null,
+      "current_cycle": false,
+      "page_mentions_2027": false
+    },
+    "named_on_program_accepting_page": []
+  },
+  {
+    "name": "Tina Freiburger, PhD",
+    "profile_url": "https://uwm.edu/education/directory/freiburger-tina/",
+    "institution": "University of Wisconsin, Milwaukee",
+    "department": "School of Education, School Psychology Program",
+    "program_area": "School Psychology",
+    "state": "WI",
+    "apa_program_number": 306,
+    "program_website": "https://uwm.edu/education/academics/school-psychology-phd/",
+    "topic_categories": [
+      "juvenile_delinquency",
+      "recidivism_prevention"
+    ],
+    "topic_score": 12,
+    "core_terms": 4,
+    "youth_focus": true,
+    "matched_terms": {
+      "juvenile_delinquency": [
+        "delinquency",
+        "juvenile court",
+        "juvenile justice",
+        "juvenile offending",
+        "youth violence"
+      ],
+      "recidivism_prevention": [
+        "recidivism"
+      ]
+    },
+    "evidence": [
+      "…D.M. (forthcoming). An Examination of the impacts of gender, race, and ethnicity on the judicial processing of offenders in domestic violence cases, Crime and Delinquency Romain, D. M. & Freiburger, T.L. (2016). Chivalry revisited: Gender, race/ethnicity, and offense type on domestic violence charge reduction. Feminist Criminolo…",
+      "…udent success, community partnerships, and academic program development. Dr. Freiburger's primary research areas are courts and sentencing, program evaluation, juvenile justice, and racial/ethnic issues in the criminal justice system. She teaches both graduate and undergraduate courses, including Methods in Social Welfare Research; An…",
+      "…d crime. Taylor and Francis Group. Select Publications Freiburger, T. L. & Sheeran, A.M.** (forthcoming). Evaluation of Safe Streets Treatment Option to reduce recidivism among repeat drunk driving offenders. Criminal Justice Policy Review Freiburger, T. L. & Romain, D.M. (forthcoming). An Examination of the impacts of gender, r…"
     ],
     "accepting": {
       "status": "unknown",
@@ -2187,6 +2448,96 @@
     "named_on_program_accepting_page": []
   },
   {
+    "name": "Marla Ruth Brassard",
+    "profile_url": "https://www.tc.columbia.edu/faculty/mrb29/",
+    "institution": "Teachers College, Columbia University",
+    "department": "School Psychology / Department of Health Studies and Applied Educational Psychology",
+    "program_area": "School Psychology",
+    "state": "NY",
+    "apa_program_number": 35,
+    "program_website": "https://www.tc.columbia.edu/health-and-behavior-studies/school-psychology/degrees--requirements/school-psychology-phd/",
+    "topic_categories": [
+      "adverse_childhood_experiences",
+      "antisocial_conduct",
+      "juvenile_delinquency",
+      "recidivism_prevention"
+    ],
+    "topic_score": 9,
+    "core_terms": 2,
+    "youth_focus": true,
+    "matched_terms": {
+      "adverse_childhood_experiences": [
+        "child abuse",
+        "child maltreatment",
+        "child welfare"
+      ],
+      "juvenile_delinquency": [
+        "school violence"
+      ],
+      "antisocial_conduct": [
+        "aggression"
+      ],
+      "recidivism_prevention": [
+        "forensic"
+      ]
+    },
+    "evidence": [
+      "…strands. They conduct research and publish articles with members of the Psychological Maltreatment Alliance (PMA) research subcommittee and present findings at child maltreatment conferences. Additionally, graduate students receive support to participate in, and sometimes conduct, a wide range of trainings at the PMA. They also join Pro…",
+      "…, A. J. L, Brassard, M. R., & Rosenzweig, J. (2021). Psychological maltreatment: Definition and reporting barriers among American professionals in the field of child abuse. Child Abuse and Neglect, 114 : 104941. Hart, S. N., Brassard, M. R., & Wernham, M. (2021). Psychological Maltreatment – A Threat to Children. In J. E. Korbin…",
+      "…pringer. Brassard, M. R., & Butterfass, M. J. (2003) Escalation-de-escalation: Teacher interventions. In J. Miller, I., Rodriquez Martin, & G. Schamess (Eds.), School violence and children in crises: School and community based strategies for social workers and counselors (pp. 187-206). Denver, CO: Love Publishing. Hart, S. N., Brassa…",
+      "…a of Trauma and Abuse. Thousand Oaks: Sage Publications Brassard, M. R., Basch, C. E., Vogel, D., & Greenwald, M. B. (in preparation). Teacher-directed student aggression: Aggressive student or response to a \"mean teacher?\" Butterfass, M., & Brassard, M. R. (in preparation). Peer sexual harassment in middle school: A development…",
+      "…al and mental health problems and has been an expert witness on child maltreatment, child and family development, and developmental disorders as they relate to forensic cases (e.g., death penalty mitigation, child testimony, child custody, the ADA). She is a fellow of the American Psychological Association, past president of t…"
+    ],
+    "accepting": {
+      "status": "unknown",
+      "evidence": null,
+      "current_cycle": false,
+      "page_mentions_2027": false
+    },
+    "named_on_program_accepting_page": []
+  },
+  {
+    "name": "Frank Ascione",
+    "profile_url": "https://cehs.usu.edu/psychology/people/emeritus-ascione-frank.php",
+    "institution": "Utah State University",
+    "department": "School Psychology Program / Department of Psychology",
+    "program_area": "School Psychology",
+    "state": "UT",
+    "apa_program_number": 2446,
+    "program_website": "https://cehs.usu.edu/psychology/doctoral/school-psychology",
+    "topic_categories": [
+      "adverse_childhood_experiences",
+      "antisocial_conduct",
+      "recidivism_prevention"
+    ],
+    "topic_score": 9,
+    "core_terms": 3,
+    "youth_focus": true,
+    "matched_terms": {
+      "adverse_childhood_experiences": [
+        "child abuse"
+      ],
+      "antisocial_conduct": [
+        "antisocial"
+      ],
+      "recidivism_prevention": [
+        "violence prevention"
+      ]
+    },
+    "evidence": [
+      "…chology at Utah State University. His research has focused on the development of antisocial behavior in children and the connections among animal maltreatment, child abuse, domestic violence, and other forms of interpersonal violence. A nationally recognized scholar in this area, Ascione’s work helped establish animal abuse as an…",
+      "…y Emeritus Professor Biography Frank R. Ascione is an Emeritus Professor of Psychology at Utah State University. His research has focused on the development of antisocial behavior in children and the connections among animal maltreatment, child abuse, domestic violence, and other forms of interpersonal violence. A nationally rec…",
+      "…onsideration in understanding family violence and child development. He is the author and editor of numerous publications examining human-animal relationships, violence prevention, and the implications of animal maltreatment for the well-being of children and families. Following his retirement from USU, Frank was appointed the inaugural…"
+    ],
+    "accepting": {
+      "status": "unknown",
+      "evidence": null,
+      "current_cycle": false,
+      "page_mentions_2027": false
+    },
+    "named_on_program_accepting_page": []
+  },
+  {
     "name": "John Lochman",
     "profile_url": "https://psychology.ua.edu/people/john-lochman/",
     "institution": "University of Alabama at Tuscaloosa",
@@ -2424,6 +2775,88 @@
       "evidence": null,
       "current_cycle": false,
       "page_mentions_2027": false
+    },
+    "named_on_program_accepting_page": []
+  },
+  {
+    "name": "Ian Barron",
+    "profile_url": "https://www.umass.edu/education/about/directory/ian-barron",
+    "institution": "University of Massachusetts Amherst",
+    "department": "Student Development",
+    "program_area": "School Psychology",
+    "state": "MA",
+    "apa_program_number": 278,
+    "program_website": "https://www.umass.edu/education/academics/school-psychology-phd",
+    "topic_categories": [
+      "adverse_childhood_experiences",
+      "antisocial_conduct",
+      "juvenile_delinquency"
+    ],
+    "topic_score": 8,
+    "core_terms": 2,
+    "youth_focus": true,
+    "matched_terms": {
+      "adverse_childhood_experiences": [
+        "child abuse",
+        "child trauma"
+      ],
+      "juvenile_delinquency": [
+        "juvenile detention"
+      ],
+      "antisocial_conduct": [
+        "aggression"
+      ]
+    },
+    "evidence": [
+      "…ic events. Journal of Aggression, Maltreatment & Trauma , 1-18. doi: 10.1080/10926771.2017.1330294 21. Alsehaimi, A., Barron, I., & Hodson, A. (2017). Physical child abuse by parents and teachers in Saudi Arabia: a systematic literature review. Journal of Child & Adolescent Trauma , 1-11. doi: 10.1007/s40653-017-0167-7 22. Barron…",
+      "…and Reprocessing; Youth Radicalization and Trauma. Dr. Barron’s research has begun with impact in mind, through identification of the most effective methods of child trauma education, prevention, and recovery. Children in war and domestic violence contexts have been the focus of education, intervention and study. Dr Barron has sou…",
+      "…nse Network to respond to mass trauma events, e.g. terrorism. Dr. Barron has received a CARE Accolade from the Scottish Social Services Council for his work in juvenile detention, an Award of Excellence from the Ministry of Education and Higher Education in occupied Palestine, and is a recognized Impact Champion (University of Dundee).…",
+      "…id, F. & Barron, I.G. (2022). A Critique of Organizational Policies: Jehovah’s Witnesses Response to Clerical Child Sexual Abuse (1989-2019). Journal of Sexual Aggression. doi: 10.1080/13552600.2021.2018513 13. Wilson, G., Farrell, D., Barron, I., Hutchins, J., Whybrow, D., & Kiernan, M. (2018). The use of Eye-Movement Desensiti…"
+    ],
+    "accepting": {
+      "status": "unknown",
+      "evidence": null,
+      "current_cycle": false,
+      "page_mentions_2027": false
+    },
+    "named_on_program_accepting_page": []
+  },
+  {
+    "name": "Todd Jensen",
+    "profile_url": "https://ed.unc.edu/people/todd-jensen/",
+    "institution": "University of North Carolina, Chapel Hill",
+    "department": "School Psychology Program / School of Education",
+    "program_area": "School Psychology",
+    "state": "NC",
+    "apa_program_number": 131,
+    "program_website": "https://ed.unc.edu/academics/programs/school-psychology/about-the-program/",
+    "topic_categories": [
+      "adverse_childhood_experiences",
+      "antisocial_conduct"
+    ],
+    "topic_score": 8,
+    "core_terms": 2,
+    "youth_focus": true,
+    "matched_terms": {
+      "adverse_childhood_experiences": [
+        "adverse childhood experiences",
+        "childhood adversity",
+        "foster care"
+      ],
+      "antisocial_conduct": [
+        "externalizing"
+      ]
+    },
+    "evidence": [
+      "…Review. Trauma, Violence, & Abuse , 15248380241297420. https://doi.org/10.1177/15248380241297420 Jensen, T., Bernard, D., & Lanier, P. (2024). Conceptualizing adverse childhood experiences as a latent factor: Tests of measurement invariance across five racial and ethnic groups. Child Development , 95 (3), e170–e185. http://doi.org/10.1111/cdev.14…",
+      "…)”, Jensen, T., Co-Investigator; NIH National Institute on Aging (NIA), $17,039,516. (August 15, 2023 – April 30, 2028). “Exploring Mechanisms Linking Maternal Childhood Adversity to Adolescent Psychopathology: The Role of Early Childhood Deprivation and Threat”, Jensen, T., Co-Investigator; Eunice Kennedy Shriver National Institute of C…",
+      "…Review , 13 (4), 463–495. Chung, G., Jensen, T., Parisi, A., Macy, R. J., & Lanier, P. (2021). Impact of intimate partner violence on parenting and children’s externalizing behaviors: Transactional processes over time. Violence Against Women , 27 (14), 2576–2599. Jensen, T., Duke, N. N., Harris, K. M., Hotz, V. J., & Perreira, K.…"
+    ],
+    "accepting": {
+      "status": "unknown",
+      "evidence": null,
+      "current_cycle": false,
+      "page_mentions_2027": true
     },
     "named_on_program_accepting_page": []
   },
@@ -3108,6 +3541,120 @@
     ]
   },
   {
+    "name": "Joni Williams Splett",
+    "profile_url": "https://education.ufl.edu/faculty/splett-joni-williams/",
+    "institution": "University of Florida",
+    "department": "College of Education, Department of Special Education, School Psychology & Early Childhood Studies",
+    "program_area": "School Psychology",
+    "state": "FL",
+    "apa_program_number": 312,
+    "program_website": "https://education.ufl.edu/school-psychology/",
+    "topic_categories": [
+      "antisocial_conduct",
+      "recidivism_prevention"
+    ],
+    "topic_score": 7,
+    "core_terms": 2,
+    "youth_focus": true,
+    "matched_terms": {
+      "antisocial_conduct": [
+        "aggression",
+        "disruptive behavior"
+      ],
+      "recidivism_prevention": [
+        "violence prevention"
+      ]
+    },
+    "evidence": [
+      "…1. Reinke, W. M., Splett, J. W., Robeson, E. N., & Offutt, C. A. (2009). Combining school and family interventions for the prevention and early intervention of disruptive behavior problems in children: A public health perspective. Psychology in the Schools, 46, 33-43. http://dx.doi.org/10.1002/pits.20352. Whitney, S., Splett, J. W., & We…",
+      "…ting. As a prevention scientist, Dr. Splett’s research also investigates the development, risk for, and prevention of youth-perpetuated, school and cyber-based aggression. Her research has been supported by the National Institute of Justice, National Institutes of Health, Institute for Education Sciences, U.S. Department of Educ…",
+      "…ng Agency U.S. Department of Education, Office of Special Education Programs CFDA#84.325D Project Period 2020-2024 Award Amount $239,068 Enhancing school-based violence prevention through multilevel racial/ethnic discrimination interventions Role Co-PI Funding Agency National Institutes of Health, National Institute on Minority Health an…"
+    ],
+    "accepting": {
+      "status": "unknown",
+      "evidence": null,
+      "current_cycle": false,
+      "page_mentions_2027": true
+    },
+    "named_on_program_accepting_page": []
+  },
+  {
+    "name": "Sample Curriculum",
+    "profile_url": "https://bouve.northeastern.edu/programs/population-health-phd/",
+    "institution": "Northeastern University",
+    "department": "School Psychology Ph.D. Program",
+    "program_area": "School Psychology",
+    "state": "MA",
+    "apa_program_number": 1787,
+    "program_website": "https://bouve.northeastern.edu/ap/programs/school-psychology-phd/",
+    "topic_categories": [
+      "adverse_childhood_experiences",
+      "recidivism_prevention"
+    ],
+    "topic_score": 7,
+    "core_terms": 2,
+    "youth_focus": true,
+    "matched_terms": {
+      "adverse_childhood_experiences": [
+        "child maltreatment",
+        "childhood adversity"
+      ],
+      "recidivism_prevention": [
+        "risk assessment"
+      ]
+    },
+    "evidence": [
+      "…y from the University of Rochester and her Master of Public Health in Biostatistics from Columbia University. Her research interests lie at the intersection of childhood adversity, trauma, and mental health, with a particular focus on child maltreatment, and Complex Post-Traumatic Stress Disorder (CPTSD). Leah is currently a Research Ass…",
+      "…atistics from Columbia University. Her research interests lie at the intersection of childhood adversity, trauma, and mental health, with a particular focus on child maltreatment, and Complex Post-Traumatic Stress Disorder (CPTSD). Leah is currently a Research Assistant at the New York State Psychiatric Institute, where she works with l…",
+      "…from Tulane University and MPH in Environmental Health Science and Policy from the George Washington University. As an MPH student, she contributed to chemical risk assessment systematic reviews through contracting work for EPA and other federal agencies and led a meta-analysis examining the impact of pesticide exposure on sperm conc…"
+    ],
+    "accepting": {
+      "status": "unknown",
+      "evidence": null,
+      "current_cycle": false,
+      "page_mentions_2027": false
+    },
+    "named_on_program_accepting_page": []
+  },
+  {
+    "name": "Kathryn Howell, Ph.D.",
+    "profile_url": "https://www.memphis.edu/psychology/people/faculty/howell.php",
+    "institution": "The University of Memphis",
+    "department": "Department of Psychology, School Psychology Ph.D. Program",
+    "program_area": "School Psychology",
+    "state": "TN",
+    "apa_program_number": 1812,
+    "program_website": "https://www.memphis.edu/psychology/graduate/schabout.php",
+    "topic_categories": [
+      "adverse_childhood_experiences",
+      "antisocial_conduct"
+    ],
+    "topic_score": 7,
+    "core_terms": 2,
+    "youth_focus": true,
+    "matched_terms": {
+      "adverse_childhood_experiences": [
+        "adverse childhood experiences",
+        "childhood adversities"
+      ],
+      "antisocial_conduct": [
+        "aggression"
+      ]
+    },
+    "evidence": [
+      "…ansition analysis. Journal of Affective Disorders. *Napier, T.R., Howell, K.H. , Scheid, C.R., & Miller-Graff, L.E. (in press). Empirically derived patterns of adverse childhood experiences and associations with prenatal social networks. Psychology of Violence. *Gilliam, H.C., Howell, K.H. , Paulson, J.L., *Napier, T.R., & Miller-Graff, L.E. (2022…",
+      "…auma: Theory, Research, Practice, and Policy, 13(3), 385-393. Hamby, S., Elm, J.L., Howell, K.H. , & Merrick, M.T. (2021). Recognizing the cumulative burden of childhood adversities transforms science and practice for trauma and resilience. American Psychologist, 76(2), 230-242. Howell, K.H. , Thurston, I.B., *Hasselle, A.J., Decker, K., &…",
+      "…asselle, A.J., & Thurston, I.B. (2021). Social support as a moderator between syndemics and posttraumatic stress among women experiencing adversity. Journal of Aggression, Maltreatment & Trauma, 30(6), 828-843. *Schaefer, L.M., Howell, K.H, Thurston, I.B, Kaufman, C.C., & *Hasselle, A.J. (2021). Protective factors associated wit…"
+    ],
+    "accepting": {
+      "status": "unknown",
+      "evidence": null,
+      "current_cycle": false,
+      "page_mentions_2027": false
+    },
+    "named_on_program_accepting_page": []
+  },
+  {
     "name": "Bruce Arnow, PhD",
     "profile_url": "https://paloaltou.edu/about/faculty/bruce-arnow-phd",
     "institution": "Palo Alto University",
@@ -3598,6 +4145,147 @@
       "page_mentions_2027": false
     },
     "named_on_program_accepting_page": []
+  },
+  {
+    "name": "Joy Wang",
+    "profile_url": "https://epsy.ku.edu/people/joy-wang",
+    "institution": "University of Kansas",
+    "department": "Department of Educational Psychology",
+    "program_area": "School Psychology",
+    "state": "KS",
+    "apa_program_number": 114,
+    "program_website": "https://epsy.ku.edu/academics/school-psychology/doctorate",
+    "topic_categories": [
+      "adverse_childhood_experiences"
+    ],
+    "topic_score": 6,
+    "core_terms": 2,
+    "youth_focus": true,
+    "matched_terms": {
+      "adverse_childhood_experiences": [
+        "ACEs",
+        "adverse childhood experiences"
+      ]
+    },
+    "evidence": [
+      "…managing young students’ severe school behaviors by involving parents (i.e., school-based Parent-Child Interaction Therapy); (2) exploring the implications of adverse childhood experiences (ACEs) on children’s school adjustment, including their peer relationships, behaviors and academic achievement; and (3) supporting the academic achievement and…",
+      "…e school behaviors by involving parents (i.e., school-based Parent-Child Interaction Therapy); (2) exploring the implications of adverse childhood experiences (ACEs) on children’s school adjustment, including their peer relationships, behaviors and academic achievement; and (3) supporting the academic achievement and menta…"
+    ],
+    "accepting": {
+      "status": "unknown",
+      "evidence": null,
+      "current_cycle": false,
+      "page_mentions_2027": true
+    },
+    "named_on_program_accepting_page": []
+  },
+  {
+    "name": "Stephanie Anne Shelton",
+    "profile_url": "https://ed.unc.edu/people/stephanie-shelton/",
+    "institution": "University of North Carolina, Chapel Hill",
+    "department": "School Psychology Program / School of Education",
+    "program_area": "School Psychology",
+    "state": "NC",
+    "apa_program_number": 131,
+    "program_website": "https://ed.unc.edu/academics/programs/school-psychology/about-the-program/",
+    "topic_categories": [
+      "juvenile_delinquency"
+    ],
+    "topic_score": 6,
+    "core_terms": 2,
+    "youth_focus": true,
+    "matched_terms": {
+      "juvenile_delinquency": [
+        "justice-involved youth",
+        "juvenile justice"
+      ]
+    },
+    "evidence": [
+      "…ion. Qualitative Research Journal . Accepted. https://doi.org/10.1108/QRJ-02-2025-0072 Shelton, S., Richards, H., & Stanley, T. (2025). An ethnodrama exploring juvenile justice staff members’ perspectives on building community partnerships. Journal of Community Engagement and Scholarship . Published. https://doi.org/10.54656/4rq8f233…",
+      "…ders, S., Jolivette, K., Hester, O. R., Ma, W., & Pitzel, A. (2026). Exploring faculty and staff members’ cultural literacies in shaping climate and supporting justice-involved youth. International Journal of Literacy, Culture, and Language Education . Accepted. Shelton, S., Hester, O. R., Sanders, S., Jolivette, K., Odom, K. P., Preast, J.…"
+    ],
+    "accepting": {
+      "status": "unknown",
+      "evidence": null,
+      "current_cycle": false,
+      "page_mentions_2027": true
+    },
+    "named_on_program_accepting_page": []
+  },
+  {
+    "name": "Bette Bottoms, PhD",
+    "profile_url": "https://psch.uic.edu/profiles/bottoms-bette/",
+    "institution": "University of Illinois at Chicago",
+    "department": "Department of Psychology",
+    "program_area": "Clinical Psychology",
+    "state": "IL",
+    "apa_program_number": 76,
+    "program_website": "https://psch.uic.edu/programs/graduate-studies/reseach-clinical-programs-gradudate-studies-clinical/",
+    "topic_categories": [
+      "adverse_childhood_experiences",
+      "juvenile_delinquency"
+    ],
+    "topic_score": 6,
+    "core_terms": 2,
+    "youth_focus": true,
+    "matched_terms": {
+      "adverse_childhood_experiences": [
+        "child abuse",
+        "childhood abuse"
+      ],
+      "juvenile_delinquency": [
+        "delinquents"
+      ]
+    },
+    "evidence": [
+      "…techniques for improving children's reports. In my third line of research, I have investigated interesting psychological issues that arise when reports of past child abuse come not from children, but from adults. Are adults' memories of childhood abuse subject to repression or distortion through suggestion? I have examined this t…",
+      "…have investigated interesting psychological issues that arise when reports of past child abuse come not from children, but from adults. Are adults' memories of childhood abuse subject to repression or distortion through suggestion? I have examined this topic in the context of national survey research exploring the incidence, characte…",
+      "…nts and I have discovered that jurors’ perceptions are influenced by factors such as juvenile race and intellectual disability, jurors’ stereotypes of juvenile delinquents, and attorneys' attempts to make jurors empathize with juveniles. We have also conducted research to understand public opinion about the extention of sexual of…"
+    ],
+    "accepting": {
+      "status": "unknown",
+      "evidence": null,
+      "current_cycle": false,
+      "page_mentions_2027": false
+    },
+    "named_on_program_accepting_page": [
+      "https://psch.uic.edu/prospective/"
+    ]
+  },
+  {
+    "name": "Jasmin Searcy-Pate, PhD",
+    "profile_url": "https://psch.uic.edu/profiles/jasmin-searcy/",
+    "institution": "University of Illinois at Chicago",
+    "department": "Department of Psychology",
+    "program_area": "Clinical Psychology",
+    "state": "IL",
+    "apa_program_number": 76,
+    "program_website": "https://psch.uic.edu/programs/graduate-studies/reseach-clinical-programs-gradudate-studies-clinical/",
+    "topic_categories": [
+      "adverse_childhood_experiences"
+    ],
+    "topic_score": 6,
+    "core_terms": 2,
+    "youth_focus": true,
+    "matched_terms": {
+      "adverse_childhood_experiences": [
+        "ACEs",
+        "adverse childhood experiences"
+      ]
+    },
+    "evidence": [
+      "…ealth outcomes across the lifespan. Her publications and multisite collaborative work with UI Health and NYU Grossman School of Medicine examine topics such as adverse childhood experiences (ACEs), chronic disease disparities, and mindfulness-based approaches to improving coping and health outcomes (e.g., cardiovascular disease) among underserved…",
+      "…pan. Her publications and multisite collaborative work with UI Health and NYU Grossman School of Medicine examine topics such as adverse childhood experiences (ACEs), chronic disease disparities, and mindfulness-based approaches to improving coping and health outcomes (e.g., cardiovascular disease) among underserved popula…"
+    ],
+    "accepting": {
+      "status": "unknown",
+      "evidence": null,
+      "current_cycle": false,
+      "page_mentions_2027": false
+    },
+    "named_on_program_accepting_page": [
+      "https://psch.uic.edu/prospective/"
+    ]
   },
   {
     "name": "Tania Abouezzeddine",
@@ -4163,6 +4851,85 @@
       "evidence": null,
       "current_cycle": false,
       "page_mentions_2027": false
+    },
+    "named_on_program_accepting_page": []
+  },
+  {
+    "name": "Policy Manual",
+    "profile_url": "https://policy.uiowa.edu/community-policies/sexual-harassment-and-sexual-misconduct",
+    "institution": "University of Iowa",
+    "department": "School Psychology/Psychological & Quantitative Foundations",
+    "program_area": "School Psychology",
+    "state": "IA",
+    "apa_program_number": 2614,
+    "program_website": "https://education.uiowa.edu/areas-study/counseling-and-mental-health/school-psychology",
+    "topic_categories": [
+      "adverse_childhood_experiences",
+      "recidivism_prevention"
+    ],
+    "topic_score": 5,
+    "core_terms": 1,
+    "youth_focus": true,
+    "matched_terms": {
+      "adverse_childhood_experiences": [
+        "child abuse"
+      ],
+      "recidivism_prevention": [
+        "reentry",
+        "risk assessment"
+      ]
+    },
+    "evidence": [
+      "…gram that is a recipient of federal funding. Footnotes 1. \"Mandated reporters\" in this policy are not to be confused with those mandated by state law to report child abuse, elder abuse, and/or abuse of individuals with disabilities to appropriate officials, though these responsibilities may overlap with those who have mandated re…",
+      "…sk analysis is performed by the Title IX Coordinator in conjunction with the Threat Assessment Program (see also VI-32 ), using its standard objective violence risk assessment procedures. Paid administrative leave does not constitute emergency removal and does not require an individualized safety and risk analysis. In all cases in wh…",
+      "…le the process is pending is not eligible for re-enrollment as a student nor for employment with the University of Iowa unless specifically authorized for such reentry by the Dean of Students (regarding reentry as a student) or the Chief Human Resources Officer (regarding reentry as an employee), or both (regarding reentry in…"
+    ],
+    "accepting": {
+      "status": "unknown",
+      "evidence": null,
+      "current_cycle": false,
+      "page_mentions_2027": false
+    },
+    "named_on_program_accepting_page": []
+  },
+  {
+    "name": "Marisa E. Marraccini",
+    "profile_url": "https://ed.unc.edu/people/marisa-e-marraccini/",
+    "institution": "University of North Carolina, Chapel Hill",
+    "department": "School Psychology Program / School of Education",
+    "program_area": "School Psychology",
+    "state": "NC",
+    "apa_program_number": 131,
+    "program_website": "https://ed.unc.edu/academics/programs/school-psychology/about-the-program/",
+    "topic_categories": [
+      "adverse_childhood_experiences",
+      "antisocial_conduct",
+      "recidivism_prevention"
+    ],
+    "topic_score": 5,
+    "core_terms": 1,
+    "youth_focus": true,
+    "matched_terms": {
+      "adverse_childhood_experiences": [
+        "childhood adversity"
+      ],
+      "antisocial_conduct": [
+        "bullying"
+      ],
+      "recidivism_prevention": [
+        "reentry"
+      ]
+    },
+    "evidence": [
+      "…, 43 (8), 893–911. https://doi.org/10.1177/0021934712463235 Crowell, J. A., Warner, D. E., Davis, C. R., Marraccini, M., & Dearing, E. (2010). The Influence of Childhood Adversity on Mothers’ Behavior with Preschoolers: Role of Maternal Attachment Coherence, Dissociative Symptoms, and Marital Behaviors. Research in Human Development , 7…",
+      "…urnal of Affective Disorders , 243 , 455–462. https://doi.org/10.1016/j.jad.2018.09.058 Marraccini, M., Brick LAD, & Weyandt, L. L. (2018). Instructor and peer bullying in college students: Distinct typologies based on Latent Class Analysis. Journal of American College Health : J of ACH , 66 (8), 799–808. https://doi.org/10.10…",
+      "…e13198. https://doi.org/10.1111/jar.13198 Vanderburg, J., Tow, A., Marraccini, M., Pittleman, C., & Cruz, C. (2023). Caregiver experiences of adolescent school reentry after adolescent psychiatric hospitalization: Recommendations to improve reentry practices. Journal of School Health , 93 (3), 206–218. https://doi.org/10.1111…"
+    ],
+    "accepting": {
+      "status": "unknown",
+      "evidence": null,
+      "current_cycle": false,
+      "page_mentions_2027": true
     },
     "named_on_program_accepting_page": []
   },
@@ -5331,6 +6098,252 @@
     "evidence": [
       "…ed intervention; mothers and fathers involved with the juvenile justice or criminal justice systems and their families; children and families involved with the child welfare system; immigrant families; observational research; social interactional theory; coercion theory; cognitive behavioral therapy; longitudinal growth modeling; s…",
       "…rent management training; couples intervention; youth mentoring; early childhood education and family-based intervention; mothers and fathers involved with the juvenile justice or criminal justice systems and their families; children and families involved with the child welfare system; immigrant families; observational research; socia…"
+    ],
+    "accepting": {
+      "status": "unknown",
+      "evidence": null,
+      "current_cycle": false,
+      "page_mentions_2027": false
+    },
+    "named_on_program_accepting_page": []
+  },
+  {
+    "name": "Search LUC.edu",
+    "profile_url": "https://www.luc.edu/education/directory/profiles/fenningpamelaa.shtml",
+    "institution": "Loyola University Chicago",
+    "department": "School Psychology/School of Education",
+    "program_area": "School Psychology",
+    "state": "IL",
+    "apa_program_number": 1726,
+    "program_website": "https://www.luc.edu/education/academics/degreeprograms/doctoraldegrees/phdinschoolpsychology/",
+    "topic_categories": [
+      "juvenile_delinquency",
+      "recidivism_prevention"
+    ],
+    "topic_score": 4,
+    "core_terms": 1,
+    "youth_focus": true,
+    "matched_terms": {
+      "juvenile_delinquency": [
+        "juvenile justice"
+      ],
+      "recidivism_prevention": [
+        "reentry"
+      ]
+    },
+    "evidence": [
+      "…J.B., Tindall-Biggins, C., Reed, K., Carr, L., & Fenning, P. (March, 2020). A Systematic Literature Review of School Reentry Practices Among Youth Impacted by Juvenile Justice. Child and Youth Services Review, Article 104773. DOI: https://doi.org/10.1016/j.childyouth.2020.104773 Lexi V. St. John & Pamela Fenning (2020) Supporting the…",
+      "…ills Publications/Research Listings Kubek, J.B., Tindall-Biggins, C., Reed, K., Carr, L., & Fenning, P. (March, 2020). A Systematic Literature Review of School Reentry Practices Among Youth Impacted by Juvenile Justice. Child and Youth Services Review, Article 104773. DOI: https://doi.org/10.1016/j.childyouth.2020.104773 Lexi…"
+    ],
+    "accepting": {
+      "status": "unknown",
+      "evidence": null,
+      "current_cycle": false,
+      "page_mentions_2027": false
+    },
+    "named_on_program_accepting_page": []
+  },
+  {
+    "name": "Jackie Cerda-Smith",
+    "profile_url": "https://psychology.illinoisstate.edu/faculty-staff/profile/?ulid=jmcerda",
+    "institution": "Illinois State University",
+    "department": "Department of Psychology",
+    "program_area": "School Psychology",
+    "state": "IL",
+    "apa_program_number": 902,
+    "program_website": "https://psychology.illinoisstate.edu/graduate/school-psychology/doctorate-in-school-psychology/",
+    "topic_categories": [
+      "adverse_childhood_experiences",
+      "antisocial_conduct"
+    ],
+    "topic_score": 4,
+    "core_terms": 1,
+    "youth_focus": true,
+    "matched_terms": {
+      "adverse_childhood_experiences": [
+        "adverse childhood experiences"
+      ],
+      "antisocial_conduct": [
+        "aggression"
+      ]
+    },
+    "evidence": [
+      "…urriculum intervention Jackie Cerda-Smith, Paula Yust, Molly Weeks, Steven Asher, Kelly Lynn Mulvey. AERA Open, (2024), 10.1177/23328584231223476 Correlates of adverse childhood experiences and secondary traumatic stress in school personnel. Jerica Knox, Qiana Cryer-Coupet, Alexandrea R. Golden, Jackie Cerda-Smith, Angela Wiseman, Sarah Barber, Ma…",
+      "…class analysis Jackie Cerda-Smith, Angelina Joy, Channing Mathews, Jerica Knox, Kelly Lynn Mulvey. Science Education, (2023), 10.1002/sce.21784 Adolescent peer aggression judgments and expected bystander intervention in teen dating violence Jackie Cerda-Smith, Secil Gonultas, Kelly Lynn Mulvey. Journal of Applied Developmental P…"
+    ],
+    "accepting": {
+      "status": "unknown",
+      "evidence": null,
+      "current_cycle": false,
+      "page_mentions_2027": false
+    },
+    "named_on_program_accepting_page": []
+  },
+  {
+    "name": "Assistant Professor",
+    "profile_url": "https://www.memphis.edu/psychology/people/faculty/emily-srisarajivakul.php",
+    "institution": "The University of Memphis",
+    "department": "Department of Psychology, School Psychology Ph.D. Program",
+    "program_area": "School Psychology",
+    "state": "TN",
+    "apa_program_number": 1812,
+    "program_website": "https://www.memphis.edu/psychology/graduate/schabout.php",
+    "topic_categories": [
+      "antisocial_conduct",
+      "juvenile_delinquency"
+    ],
+    "topic_score": 4,
+    "core_terms": 1,
+    "youth_focus": true,
+    "matched_terms": {
+      "juvenile_delinquency": [
+        "school violence"
+      ],
+      "antisocial_conduct": [
+        "bullying"
+      ]
+    },
+    "evidence": [
+      "…21). Protecting victims of bullying: The protective roles of self-esteem and self-forgiveness in past victimization and current depressive symptoms. Journal of School Violence, 20(4), 417-429. doi: 10.1080/15388220.2021.1930015 Courses Taught Dr. Srisarajivakul teaches classes at the graduate and undergraduate levels. These courses g…",
+      "…tial validation. Journal of School Psychology, 99, doi: 10.1016/j.jsp.2023.101224 Choe, E. J., Srisarajivakul, E.N. , & Davis, D. (2021). Protecting victims of bullying: The protective roles of self-esteem and self-forgiveness in past victimization and current depressive symptoms. Journal of School Violence, 20(4), 417-429. do…"
+    ],
+    "accepting": {
+      "status": "unknown",
+      "evidence": null,
+      "current_cycle": false,
+      "page_mentions_2027": false
+    },
+    "named_on_program_accepting_page": []
+  },
+  {
+    "name": "Casey Calhoun Assistant Professor",
+    "profile_url": "https://ed.unc.edu/people/casey-calhoun/",
+    "institution": "University of North Carolina, Chapel Hill",
+    "department": "School Psychology Program / School of Education",
+    "program_area": "School Psychology",
+    "state": "NC",
+    "apa_program_number": 131,
+    "program_website": "https://ed.unc.edu/academics/programs/school-psychology/about-the-program/",
+    "topic_categories": [
+      "adverse_childhood_experiences",
+      "antisocial_conduct"
+    ],
+    "topic_score": 4,
+    "core_terms": 1,
+    "youth_focus": true,
+    "matched_terms": {
+      "adverse_childhood_experiences": [
+        "adverse childhood experiences"
+      ],
+      "antisocial_conduct": [
+        "aggression"
+      ]
+    },
+    "evidence": [
+      "…bjab051 Bernard, D. L., Calhoun, C., Banks, D. E., Halliday, C. A., Hughes-Halbert, C., & Danielson, C. K. (2020). Making the “C-ACE” for a Culturally-Informed Adverse Childhood Experiences Framework to Understand the Pervasive Mental Health Impact of Racism on Black Youth. Journal of Child & Adolescent Trauma , 14 (2), 233–247. https://doi.org/10…",
+      "…Development , 82 (6), 1921–1937. https://doi.org/10.1111/j.1467-8624.2011.01664.x Jack, A., Mikami, A. Y., & Calhoun, C. (2011). The moderating role of verbal aggression on the relationship between parental feedback and peer status among children with ADHD. Journal of Abnormal Child Psychology , 39 (7), 1059–1071. https://doi.o…"
+    ],
+    "accepting": {
+      "status": "unknown",
+      "evidence": null,
+      "current_cycle": false,
+      "page_mentions_2027": true
+    },
+    "named_on_program_accepting_page": []
+  },
+  {
+    "name": "Brinda India Jegatheesan",
+    "profile_url": "https://education.uw.edu/about/directory/brinda-india-jegatheesan",
+    "institution": "University of Washington",
+    "department": "School Psychology",
+    "program_area": "School Psychology",
+    "state": "WA",
+    "apa_program_number": 271,
+    "program_website": "https://education.uw.edu/schoolpsychology",
+    "topic_categories": [
+      "adverse_childhood_experiences",
+      "antisocial_conduct"
+    ],
+    "topic_score": 4,
+    "core_terms": 1,
+    "youth_focus": true,
+    "matched_terms": {
+      "adverse_childhood_experiences": [
+        "child abuse"
+      ],
+      "antisocial_conduct": [
+        "aggression"
+      ]
+    },
+    "evidence": [
+      "…en and adolescents with psychiatric and other terminal illnesses. (Barcelona, Spain) Jegatheesan, B., Enders-Slegers, M.J., Ormerod, L., & Boyden, P (ongoing). Child abuse, animal abuse and domestic violence: Prevention and intervention. (US, Netherlands, Scotland, UK) Jegatheesan, B (ongoing). Impact of culture, religion and the…",
+      "…nd family violence: Addresssing psychological, familial, and socio-pathology of violence through humane education and animal-assisted interventions. In: Anger, aggression, and violence: Causes, pathology & treatments. Kings College, UK Jegatheesan, B & M.G (2022). Ahimsa, Violence Resolutions on Animals in India and impact on an…"
+    ],
+    "accepting": {
+      "status": "unknown",
+      "evidence": null,
+      "current_cycle": false,
+      "page_mentions_2027": false
+    },
+    "named_on_program_accepting_page": []
+  },
+  {
+    "name": "Jessica L Shaw, Ph.D",
+    "profile_url": "https://psch.uic.edu/profiles/shaw-jessica/",
+    "institution": "University of Illinois at Chicago",
+    "department": "Department of Psychology",
+    "program_area": "Clinical Psychology",
+    "state": "IL",
+    "apa_program_number": 76,
+    "program_website": "https://psch.uic.edu/programs/graduate-studies/reseach-clinical-programs-gradudate-studies-clinical/",
+    "topic_categories": [
+      "recidivism_prevention"
+    ],
+    "topic_score": 4,
+    "core_terms": 1,
+    "youth_focus": true,
+    "matched_terms": {
+      "recidivism_prevention": [
+        "forensic",
+        "violence prevention"
+      ]
+    },
+    "evidence": [
+      "…luation of Michigan’s pilot sexual assault kit (SAK). Journal of Interpersonal Violence, 31(8), 1476-1500. Shaw, J., & Janulis, P. (2016). Re-evaluating sexual violence prevention through bystander education: A latent growth curve approach. Journal of Interpersonal Violence, 31(16), 2729-2750. Shaw, J., McLean, K., Taylor, B. Swartout, K…",
+      "…Journal of Evaluation, 35(2), 250-260. Shaw, J., & Campbell, R. (2013). Predicting sexual assault kit (SAK) submission among adolescent rape cases treated in a forensic nurse examiner program. Journal of Interpersonal Violence, 28(18), 3400-3417. Service to Community Massachusetts SANE Program Adolescent Taskforce Massachusett…"
+    ],
+    "accepting": {
+      "status": "unknown",
+      "evidence": null,
+      "current_cycle": false,
+      "page_mentions_2027": false
+    },
+    "named_on_program_accepting_page": []
+  },
+  {
+    "name": "Dr. Joe Hopfinger",
+    "profile_url": "https://psychology.unc.edu/core-faculty/",
+    "institution": "University of North Carolina, Chapel Hill",
+    "department": "Clinical Psychology Program/Department of Psychology and Neuroscience",
+    "program_area": "Clinical Psychology",
+    "state": "NC",
+    "apa_program_number": 274,
+    "program_website": "https://clinicalpsych.unc.edu/",
+    "topic_categories": [
+      "antisocial_conduct"
+    ],
+    "topic_score": 4,
+    "core_terms": 1,
+    "youth_focus": true,
+    "matched_terms": {
+      "antisocial_conduct": [
+        "antisocial",
+        "externalizing"
+      ]
+    },
+    "evidence": [
+      "…e Hall ehtelzer@unc.edu Dr. Telzer’s research examines how social and cultural processes shape adolescent brain development, with a focus on both prosocial and antisocial behaviors, family and peer relationships, and long-term psychological well-being. Visit her online: Developmental Social Neuroscience Lab . Thiele, Todd Profes…",
+      "…8 Davie Hall (919) 843-3182 sheridan.margaret@unc.edu Dr. Sheridan studies the neural mechanisms through which adversity affects brain development and risk for externalizing disorders; diagnosis and treatment of attention-deficit and hyperactivity disorder in early childhood; and typical and atypical development of the prefrontal c…"
     ],
     "accepting": {
       "status": "unknown",
@@ -6573,6 +7586,473 @@
     "named_on_program_accepting_page": []
   },
   {
+    "name": "Kyla Cary",
+    "profile_url": "https://psychology.illinoisstate.edu/faculty-staff/profile/?ulid=kmcary",
+    "institution": "Illinois State University",
+    "department": "Department of Psychology",
+    "program_area": "School Psychology",
+    "state": "IL",
+    "apa_program_number": 902,
+    "program_website": "https://psychology.illinoisstate.edu/graduate/school-psychology/doctorate-in-school-psychology/",
+    "topic_categories": [
+      "recidivism_prevention"
+    ],
+    "topic_score": 3,
+    "core_terms": 1,
+    "youth_focus": true,
+    "matched_terms": {
+      "recidivism_prevention": [
+        "violence prevention"
+      ]
+    },
+    "evidence": [
+      "…nder-based violence, and sexual/reproductive health. I also infuse into my work an understanding of the impact of media on development. I aim to inform primary violence prevention and sexual health education. Research topics that I am interested in: sexual violence, sexual consent, sexual objectification, social media use, body image, se…"
+    ],
+    "accepting": {
+      "status": "unknown",
+      "evidence": null,
+      "current_cycle": false,
+      "page_mentions_2027": false
+    },
+    "named_on_program_accepting_page": []
+  },
+  {
+    "name": "Dr. Adena Meyers",
+    "profile_url": "https://psychology.illinoisstate.edu/faculty-staff/profile/?ulid=abmeyer",
+    "institution": "Illinois State University",
+    "department": "Department of Psychology",
+    "program_area": "School Psychology",
+    "state": "IL",
+    "apa_program_number": 902,
+    "program_website": "https://psychology.illinoisstate.edu/graduate/school-psychology/doctorate-in-school-psychology/",
+    "topic_categories": [
+      "recidivism_prevention"
+    ],
+    "topic_score": 3,
+    "core_terms": 1,
+    "youth_focus": true,
+    "matched_terms": {
+      "recidivism_prevention": [
+        "recidivism"
+      ]
+    },
+    "evidence": [
+      "…burnout through wellness programming Chelsea Sanchez, Adena B Meyers, Emily Jones. Annual Convention, Peoria, IL, January, 2026 School difficulties related to recidivism rates with juvenile youths Shari Aclibon, Adena Meyers. Annual Convention, Seattle, WA, February, 2025 Educator Wellbeing and Turnover Intentions Adena Meyers,…"
+    ],
+    "accepting": {
+      "status": "unknown",
+      "evidence": null,
+      "current_cycle": false,
+      "page_mentions_2027": false
+    },
+    "named_on_program_accepting_page": []
+  },
+  {
+    "name": "Special Education",
+    "profile_url": "https://www.umass.edu/education/node/391",
+    "institution": "University of Massachusetts Amherst",
+    "department": "Student Development",
+    "program_area": "School Psychology",
+    "state": "MA",
+    "apa_program_number": 278,
+    "program_website": "https://www.umass.edu/education/academics/school-psychology-phd",
+    "topic_categories": [
+      "juvenile_delinquency"
+    ],
+    "topic_score": 3,
+    "core_terms": 1,
+    "youth_focus": true,
+    "matched_terms": {
+      "juvenile_delinquency": [
+        "juvenile justice"
+      ]
+    },
+    "evidence": [
+      "…holar by the Institute for Social Science Research (ISSR) at UMass Amherst. March 11, 2025 Community Krezmien, Lauterbach, and Hosp partner with ASU to promote juvenile justice special education Krezmien, Lauterbach, and Hosp partner with ASU to promote juvenile justice special education. June 11, 2022 Licensure All Educator Licensure…"
+    ],
+    "accepting": {
+      "status": "unknown",
+      "evidence": null,
+      "current_cycle": false,
+      "page_mentions_2027": false
+    },
+    "named_on_program_accepting_page": []
+  },
+  {
+    "name": "Vanessa Johnson",
+    "profile_url": "https://bouve.northeastern.edu/directory/vanessa-johnson/",
+    "institution": "Northeastern University",
+    "department": "School Psychology Ph.D. Program",
+    "program_area": "School Psychology",
+    "state": "MA",
+    "apa_program_number": 1787,
+    "program_website": "https://bouve.northeastern.edu/ap/programs/school-psychology-phd/",
+    "topic_categories": [
+      "adverse_childhood_experiences"
+    ],
+    "topic_score": 3,
+    "core_terms": 1,
+    "youth_focus": true,
+    "matched_terms": {
+      "adverse_childhood_experiences": [
+        "childhood adversity"
+      ]
+    },
+    "evidence": [
+      "…d: Contemporary College Student Activism ; The Black Power Movement’s Impact on Higher Education; Relationships in College ; Counseling College Students ; and, Childhood Adversity and its Impact on College Attainment . She teaches courses related to college student development and the administration of programs and services in student af…"
+    ],
+    "accepting": {
+      "status": "unknown",
+      "evidence": null,
+      "current_cycle": false,
+      "page_mentions_2027": false
+    },
+    "named_on_program_accepting_page": []
+  },
+  {
+    "name": "Stephanie Wallio, PhD",
+    "profile_url": "https://psychology.ecu.edu/people/wallio/",
+    "institution": "East Carolina University",
+    "department": "Psychology Department",
+    "program_area": "School Psychology",
+    "state": "NC",
+    "apa_program_number": 1818,
+    "program_website": "https://psychology.ecu.edu/graduate/pediatric/",
+    "topic_categories": [
+      "adverse_childhood_experiences"
+    ],
+    "topic_score": 3,
+    "core_terms": 1,
+    "youth_focus": true,
+    "matched_terms": {
+      "adverse_childhood_experiences": [
+        "child abuse"
+      ]
+    },
+    "evidence": [
+      "…ence with grant writing, program evaluation, program technical assistance, and systems development and evaluation in the areas of early childhood education and child abuse and neglect prevention. Full Curriculum Vitae (PDF)"
+    ],
+    "accepting": {
+      "status": "unknown",
+      "evidence": null,
+      "current_cycle": false,
+      "page_mentions_2027": false
+    },
+    "named_on_program_accepting_page": []
+  },
+  {
+    "name": "My UNL",
+    "profile_url": "https://cehs.unl.edu/edpsych/person/susan-sheridan/",
+    "institution": "University of Nebraska, Lincoln",
+    "department": "Department of Educational Psychology",
+    "program_area": "School Psychology",
+    "state": "NE",
+    "apa_program_number": 111,
+    "program_website": "https://cehs.unl.edu/edpsych/school-psychology/",
+    "topic_categories": [
+      "antisocial_conduct"
+    ],
+    "topic_score": 3,
+    "core_terms": 1,
+    "youth_focus": true,
+    "matched_terms": {
+      "antisocial_conduct": [
+        "disruptive behaviors"
+      ]
+    },
+    "evidence": [
+      "…Total: $599,694 for four years. 2005–2008, Co-Principle Investegator (T. Glover, Co-Principal Investigator). “Evaluation of the Efficacy of CBC for Addressing Disruptive Behaviors of Children at-Risk for Academic Failure.” U.S. Department of Education. Grant Total: $1,368,067 for three 2004–2009, Co-Principal Investigator (E. Daly, Princ…"
+    ],
+    "accepting": {
+      "status": "unknown",
+      "evidence": null,
+      "current_cycle": false,
+      "page_mentions_2027": false
+    },
+    "named_on_program_accepting_page": []
+  },
+  {
+    "name": "Scott Stage",
+    "profile_url": "https://chass.ncsu.edu/people/sastage/",
+    "institution": "North Carolina State University",
+    "department": "Department of Psychology",
+    "program_area": "School Psychology",
+    "state": "NC",
+    "apa_program_number": 232,
+    "program_website": "https://psychology.chass.ncsu.edu/school/",
+    "topic_categories": [
+      "adverse_childhood_experiences"
+    ],
+    "topic_score": 3,
+    "core_terms": 1,
+    "youth_focus": true,
+    "matched_terms": {
+      "adverse_childhood_experiences": [
+        "adverse childhood experiences"
+      ]
+    },
+    "evidence": [
+      "…r nation’s public schools. (b) Using data collected from the Future of Families Childhood Wellbeing Study https://ffcws.princeton.edu/ to assess the effects of adverse childhood experiences on developing children, youth, and adults’ mental health and well-being conceptualized through ecological systems theory. (c) Conducting several mixed methods…"
+    ],
+    "accepting": {
+      "status": "unknown",
+      "evidence": null,
+      "current_cycle": false,
+      "page_mentions_2027": false
+    },
+    "named_on_program_accepting_page": []
+  },
+  {
+    "name": "Jason Allaire",
+    "profile_url": "https://chass.ncsu.edu/people/jcallair/",
+    "institution": "North Carolina State University",
+    "department": "Department of Psychology",
+    "program_area": "School Psychology",
+    "state": "NC",
+    "apa_program_number": 232,
+    "program_website": "https://psychology.chass.ncsu.edu/school/",
+    "topic_categories": [
+      "adverse_childhood_experiences"
+    ],
+    "topic_score": 3,
+    "core_terms": 1,
+    "youth_focus": true,
+    "matched_terms": {
+      "adverse_childhood_experiences": [
+        "child abuse"
+      ]
+    },
+    "evidence": [
+      "…laire, J. C., Kreig, S., & Hart, K. C. (2008). Protective and vulnerability factors for physically abused children: effects of ethnicity and parenting context. Child Abuse Negl , 32 (5), 567-576. https://doi.org/10.1016/j.chiabu.2007.06.009 Johansson, B., Hofer, S. M., Allaire, J. C., Maldonado-Molina, M. M., Piccinin, A. M., Ber…"
+    ],
+    "accepting": {
+      "status": "unknown",
+      "evidence": null,
+      "current_cycle": false,
+      "page_mentions_2027": false
+    },
+    "named_on_program_accepting_page": []
+  },
+  {
+    "name": "Shevaun Neupert",
+    "profile_url": "https://chass.ncsu.edu/people/sdneuper/",
+    "institution": "North Carolina State University",
+    "department": "Department of Psychology",
+    "program_area": "School Psychology",
+    "state": "NC",
+    "apa_program_number": 232,
+    "program_website": "https://psychology.chass.ncsu.edu/school/",
+    "topic_categories": [
+      "juvenile_delinquency"
+    ],
+    "topic_score": 3,
+    "core_terms": 1,
+    "youth_focus": true,
+    "matched_terms": {
+      "juvenile_delinquency": [
+        "delinquency",
+        "delinquent"
+      ]
+    },
+    "evidence": [
+      "…ily Experiences of Subjective Age Discordance and Well-Being. Psychology and Aging . doi: 10.1037/pag0000621 Smith, E.L., Anglis, E.M., & Neupert, S.D. (2021). Delinquency differences in daily emotional reactivity to mindfulness lapses. Current Psychology . doi: 10.1007/s12144-021-01945-8 Zhu, X. , & Neupert, S.D. (2021). Core Be…",
+      "…ology: Psychological Sciences, 75 , e1-e12. doi: 10.1093/geronb/gbz001 Smith, E.L., & Neupert, S.D . (2020). Daily stressor exposure: Examining interactions of delinquent networks, daily mindfulness and control among emerging adults. Current Psychology . Advance online access. https://doi.org/10.1007/s12144-020-00694-4 Polk, M.G…"
+    ],
+    "accepting": {
+      "status": "unknown",
+      "evidence": null,
+      "current_cycle": false,
+      "page_mentions_2027": false
+    },
+    "named_on_program_accepting_page": []
+  },
+  {
+    "name": "Mary Haskett",
+    "profile_url": "https://chass.ncsu.edu/people/mehasket/",
+    "institution": "North Carolina State University",
+    "department": "Department of Psychology",
+    "program_area": "School Psychology",
+    "state": "NC",
+    "apa_program_number": 232,
+    "program_website": "https://psychology.chass.ncsu.edu/school/",
+    "topic_categories": [
+      "adverse_childhood_experiences"
+    ],
+    "topic_score": 3,
+    "core_terms": 1,
+    "youth_focus": true,
+    "matched_terms": {
+      "adverse_childhood_experiences": [
+        "adverse childhood experiences"
+      ]
+    },
+    "evidence": [
+      "…and for college students’ basic needs. Dr. Haskett and her students conduct research designed to (a) identify resilient functioning of children who have faced adverse childhood experiences and (b) test the effects of parenting interventions to reduce the risks associated with those experiences. Haskett is a Health Service Provider licensed Psycho…"
+    ],
+    "accepting": {
+      "status": "unknown",
+      "evidence": null,
+      "current_cycle": false,
+      "page_mentions_2027": false
+    },
+    "named_on_program_accepting_page": []
+  },
+  {
+    "name": "Dr. Brian Barber",
+    "profile_url": "https://www.kent.edu/node/dr-brian-barber",
+    "institution": "Kent State University",
+    "department": "School of Lifespan Development and Educational Sciences",
+    "program_area": "School Psychology",
+    "state": "OH",
+    "apa_program_number": 57,
+    "program_website": "https://www.kent.edu/ehhs/ldes/spsy/phd-program",
+    "topic_categories": [
+      "juvenile_delinquency"
+    ],
+    "topic_score": 3,
+    "core_terms": 1,
+    "youth_focus": true,
+    "matched_terms": {
+      "juvenile_delinquency": [
+        "juvenile corrections"
+      ]
+    },
+    "evidence": [
+      "…., Lane, H., McCray, E., & Lambert, R. (2025). Teacher instructional approaches and student engagement and behavioral responses during reading instruction in a juvenile corrections school. Journal of Emo Bedesem, P. L., Barber, B. R., & Rosenblatt, K. (2024). A teacher’s guide to technology- based self-monitoring. Intervention in School a…"
+    ],
+    "accepting": {
+      "status": "unknown",
+      "evidence": null,
+      "current_cycle": false,
+      "page_mentions_2027": false
+    },
+    "named_on_program_accepting_page": []
+  },
+  {
+    "name": "Peter F. Halpin",
+    "profile_url": "https://ed.unc.edu/people/peter-f-halpin/",
+    "institution": "University of North Carolina, Chapel Hill",
+    "department": "School Psychology Program / School of Education",
+    "program_area": "School Psychology",
+    "state": "NC",
+    "apa_program_number": 131,
+    "program_website": "https://ed.unc.edu/academics/programs/school-psychology/about-the-program/",
+    "topic_categories": [
+      "adverse_childhood_experiences"
+    ],
+    "topic_score": 3,
+    "core_terms": 1,
+    "youth_focus": true,
+    "matched_terms": {
+      "adverse_childhood_experiences": [
+        "childhood adversity"
+      ]
+    },
+    "evidence": [
+      "…on a global scale? His applied work has addressed the development, validation, and/or scoring of assessments of early childhood development, child functioning, childhood adversity, children’s home environment, student collaboration, soft skills, academic outcomes, instructional practices, and teacher working conditions. This work has bee…"
+    ],
+    "accepting": {
+      "status": "unknown",
+      "evidence": null,
+      "current_cycle": false,
+      "page_mentions_2027": true
+    },
+    "named_on_program_accepting_page": []
+  },
+  {
+    "name": "Virtual Open House",
+    "profile_url": "https://www.duq.edu/academics/colleges-and-schools/education/degrees-and-programs/msed-child-psychology.php",
+    "institution": "Duquesne University",
+    "department": "Counselor Education and School Psychology",
+    "program_area": "School Psychology",
+    "state": "PA",
+    "apa_program_number": 1602,
+    "program_website": "https://www.duq.edu/academics/colleges-and-schools/education/programs-and-degrees/graduate-programs/phd-school-psychology/index.php",
+    "topic_categories": [
+      "adverse_childhood_experiences"
+    ],
+    "topic_score": 3,
+    "core_terms": 1,
+    "youth_focus": true,
+    "matched_terms": {
+      "adverse_childhood_experiences": [
+        "child abuse"
+      ]
+    },
+    "evidence": [
+      "…ish intervention plans for the purpose of providing safe and effective environments for individuals with challenging behaviors Become an expert in coordinating child abuse and neglect cases while complying with mandated reporting requirements Become a leader in the protocols of the Individualized Education Programs (IEP) for stud…"
+    ],
+    "accepting": {
+      "status": "unknown",
+      "evidence": null,
+      "current_cycle": false,
+      "page_mentions_2027": false
+    },
+    "named_on_program_accepting_page": []
+  },
+  {
+    "name": "Joseph Jenkins",
+    "profile_url": "https://education.uw.edu/about/directory/joseph-jenkins",
+    "institution": "University of Washington",
+    "department": "School Psychology",
+    "program_area": "School Psychology",
+    "state": "WA",
+    "apa_program_number": 271,
+    "program_website": "https://education.uw.edu/schoolpsychology",
+    "topic_categories": [
+      "juvenile_delinquency"
+    ],
+    "topic_score": 3,
+    "core_terms": 1,
+    "youth_focus": true,
+    "matched_terms": {
+      "juvenile_delinquency": [
+        "delinquency"
+      ]
+    },
+    "evidence": [
+      "…esearch to Practice (pp. 99-150). Mawah, NJ: Earlbaum. Mills, P. E., Cole, K. N., Jenkins, J. R., & Dale, P. S. (2002). Early direct instruction and subsequent delinquency. Exceptional Children, 69 , 85-96. Fuchs, L. S., Fuchs, D. F., Hosp, M. K., & Jenkins, J. R. (2001). Oral reading fluency as an indicator of reading competence…"
+    ],
+    "accepting": {
+      "status": "unknown",
+      "evidence": null,
+      "current_cycle": false,
+      "page_mentions_2027": false
+    },
+    "named_on_program_accepting_page": []
+  },
+  {
+    "name": "Special Education",
+    "profile_url": "https://cech.uc.edu/Academics/school-of-education/graduate-programs/edustudiesphd/special-education.html",
+    "institution": "University of Cincinnati",
+    "department": "College of Education, Criminal Justice, and Human Services; School of Human Services",
+    "program_area": "School Psychology",
+    "state": "OH",
+    "apa_program_number": 2056,
+    "program_website": "https://cech.uc.edu/schools/human-services/graduate-programs/school-psychology-graduate-programs/school-psychology-phd.html",
+    "topic_categories": [
+      "juvenile_delinquency"
+    ],
+    "topic_score": 3,
+    "core_terms": 1,
+    "youth_focus": true,
+    "matched_terms": {
+      "juvenile_delinquency": [
+        "juvenile justice"
+      ]
+    },
+    "evidence": [
+      "…th disabilities, with specific foci on transition to employment and postsecondary education. Other research interests include students with disabilities in the Juvenile Justice System and self-determination. Full Profile Yvette McDaniel-Pennington Assoc Professor - Educator (F2) , CECH Special Education Teachers College penninye@ucmai…"
+    ],
+    "accepting": {
+      "status": "unknown",
+      "evidence": null,
+      "current_cycle": false,
+      "page_mentions_2027": false
+    },
+    "named_on_program_accepting_page": []
+  },
+  {
     "name": "Joyce P. Chu, PhD",
     "profile_url": "https://paloaltou.edu/about/faculty/joyce-p-chu-phd",
     "institution": "Palo Alto University",
@@ -7172,6 +8652,75 @@
     ]
   },
   {
+    "name": "John L. Cooley",
+    "profile_url": "https://education.ufl.edu/faculty/john-l-cooley/",
+    "institution": "University of Florida",
+    "department": "College of Education, Department of Special Education, School Psychology & Early Childhood Studies",
+    "program_area": "School Psychology",
+    "state": "FL",
+    "apa_program_number": 312,
+    "program_website": "https://education.ufl.edu/school-psychology/",
+    "topic_categories": [
+      "antisocial_conduct"
+    ],
+    "topic_score": 2,
+    "core_terms": 0,
+    "youth_focus": true,
+    "matched_terms": {
+      "antisocial_conduct": [
+        "aggression",
+        "bullying"
+      ]
+    },
+    "evidence": [
+      "…pecial Education School Psychology and Early Childhood Studies Prevention and Intervention Network Center Research Interests Clinical Interventions, Conflict / Aggression, Emotion, Family-centered Services, Individual Mental Health, Prevention Science, Stress / Coping, Trauma Education Ph.D. in Clinical Child Psychology, Univers…",
+      "…at the University of Florida. His research is guided by two overarching questions: (1) “How can we meet the mental health needs of youth negatively impacted by bullying and peer victimization?” and (2) “How can we expand families’ access to evidence-based mental health services and resources?” To address these questions, his r…"
+    ],
+    "accepting": {
+      "status": "unknown",
+      "evidence": null,
+      "current_cycle": false,
+      "page_mentions_2027": false
+    },
+    "named_on_program_accepting_page": []
+  },
+  {
+    "name": "Christopher Mayhorn",
+    "profile_url": "https://chass.ncsu.edu/people/cbmayhor/",
+    "institution": "North Carolina State University",
+    "department": "Department of Psychology",
+    "program_area": "School Psychology",
+    "state": "NC",
+    "apa_program_number": 232,
+    "program_website": "https://psychology.chass.ncsu.edu/school/",
+    "topic_categories": [
+      "adverse_childhood_experiences",
+      "recidivism_prevention"
+    ],
+    "topic_score": 2,
+    "core_terms": 0,
+    "youth_focus": true,
+    "matched_terms": {
+      "adverse_childhood_experiences": [
+        "child welfare"
+      ],
+      "recidivism_prevention": [
+        "forensic"
+      ]
+    },
+    "evidence": [
+      "…se of this contract is to deliver training, technical assistance, evaluation, and research evidence in order to support and improve family-centered practice by child welfare workers and their partners. This work will support efforts as described in the North Carolina's Child and Family Services Plan 2020-2024 regarding the Workforc…",
+      "…ng older adults’ perceptions to inform warning design. Journal of Injury Control and Safety Promotion, 11 (4), 211-218. Mayhorn, C. B. & Wogalter, M.S. (2020). Forensic human factors and ergonomics: Theory in practice. Theoretical Issues in Ergonomic Science, 21 (3) . Mayhorn , C. B ., & Wogalter, M. S. (2010). Considering the…"
+    ],
+    "accepting": {
+      "status": "unknown",
+      "evidence": null,
+      "current_cycle": false,
+      "page_mentions_2027": true
+    },
+    "named_on_program_accepting_page": []
+  },
+  {
     "name": "Maggie Webb",
     "profile_url": "https://clinical.gmu.edu/people/4871",
     "institution": "George Mason University",
@@ -7457,6 +9006,39 @@
     "evidence": [
       "…rain age algorithms under varying degrees of participant motion. Brain Informatics, 11(1), 9. Hanson, J. L., O’Connor, K., Adkins, D. J., & Kahhale, I. (2024). Childhood adversity and COVID-19 outcomes in the UK Biobank. J Epidemiol Community Health, 78(2), 75-81.",
       "…duate Advisor David Rollock Selected Publications Hanson, J.L., Adkins, D.J., Kahhale, I., Sen, S.R. (in press). Positive Affect as a Developmental Mediator of Early Adversity and Internalizing Psychopathology. Journal of Child Psychology and Psychiatry. Hanson, J. L., Adkins, D. J., Bacas, E., & Zhou, P. (2024). Examining the reliab…"
+    ],
+    "accepting": {
+      "status": "unknown",
+      "evidence": null,
+      "current_cycle": false,
+      "page_mentions_2027": false
+    },
+    "named_on_program_accepting_page": []
+  },
+  {
+    "name": "Hands-On Learning",
+    "profile_url": "https://cech.uc.edu/Academics/school-of-criminal-justice/grad-programs.html",
+    "institution": "University of Cincinnati",
+    "department": "College of Education, Criminal Justice, and Human Services; School of Human Services",
+    "program_area": "School Psychology",
+    "state": "OH",
+    "apa_program_number": 2056,
+    "program_website": "https://cech.uc.edu/schools/human-services/graduate-programs/school-psychology-graduate-programs/school-psychology-phd.html",
+    "topic_categories": [
+      "recidivism_prevention"
+    ],
+    "topic_score": 6,
+    "core_terms": 2,
+    "youth_focus": false,
+    "matched_terms": {
+      "recidivism_prevention": [
+        "crime prevention",
+        "reoffending"
+      ]
+    },
+    "evidence": [
+      "…on The Correctional Rehabilitation graduate certificate teaches you how to understand offender risks and needs and how to use evidence‑based programs to reduce reoffending. You’ll get hands‑on experience working with different corrections populations and learn the skills needed for settings like probation, parole, prisons, jails,…",
+      "…, you’ll study key areas of the field and build skills that prepare you for career growth. Learn how laws and justice systems work Study policing, corrections, crime prevention, and criminal behavior Build strong research and problem‑solving skills Advance in your current role or start a new career in criminal justice Hands-On Learnin…"
     ],
     "accepting": {
       "status": "unknown",
@@ -8105,6 +9687,78 @@
     "evidence": [
       "…r, the chance to work with both undergraduate and Ph.D. students makes this an ideal context for his career development. Some of his off-campus work focuses on crime prevention and desistance as well as post-prison reintegration. He is currently Board President of Self-Help, the Board Vice President of Project Return, and has given ov…",
       "…p, the Board Vice President of Project Return, and has given over 80 presentations to inmates in Wisconsin prisons. Research Lab: HERE (Holistic Exploration of Reentry Experiences) He is particularly interested in students that want to be a part of the next big project: A Narrative study of African American Women and Intersec…"
+    ],
+    "accepting": {
+      "status": "unknown",
+      "evidence": null,
+      "current_cycle": false,
+      "page_mentions_2027": false
+    },
+    "named_on_program_accepting_page": []
+  },
+  {
+    "name": "Dr. Angela Backus",
+    "profile_url": "https://www.kent.edu/node/dr-angela-backus",
+    "institution": "Kent State University",
+    "department": "School of Lifespan Development and Educational Sciences",
+    "program_area": "School Psychology",
+    "state": "OH",
+    "apa_program_number": 57,
+    "program_website": "https://www.kent.edu/ehhs/ldes/spsy/phd-program",
+    "topic_categories": [
+      "antisocial_conduct",
+      "recidivism_prevention"
+    ],
+    "topic_score": 4,
+    "core_terms": 1,
+    "youth_focus": false,
+    "matched_terms": {
+      "antisocial_conduct": [
+        "bullying"
+      ],
+      "recidivism_prevention": [
+        "violence prevention"
+      ]
+    },
+    "evidence": [
+      "…nsed to teach K-12 Health Education in Ohio. I have presented at numerous local, national, and international conferences about various health issues, including bullying risk-reduction, school health programming, and brain-based teaching and learning strategies. In addition, I have taught several health education courses, inclu…",
+      "…In addition, I have taught several health education courses, including Teaching Health to Young Learners, Drug Use and Misuse, Personal Health, Drug Abuse and Violence Prevention Education, and Human Sexuality. Education B.A. in Elementary Education, State University of New York at Fredonia M.A. in School Health Education, Kent State Un…"
+    ],
+    "accepting": {
+      "status": "unknown",
+      "evidence": null,
+      "current_cycle": false,
+      "page_mentions_2027": false
+    },
+    "named_on_program_accepting_page": []
+  },
+  {
+    "name": "Pro Bono",
+    "profile_url": "https://law.baylor.edu/why-baylor-law/pro-bono",
+    "institution": "Baylor University",
+    "department": "Baylor University School Psychology Ph.D. Program",
+    "program_area": "School Psychology",
+    "state": "TX",
+    "apa_program_number": 2482,
+    "program_website": "https://schoolpsychology.soe.baylor.edu/phd-waco",
+    "topic_categories": [
+      "adverse_childhood_experiences",
+      "juvenile_delinquency"
+    ],
+    "topic_score": 4,
+    "core_terms": 1,
+    "youth_focus": false,
+    "matched_terms": {
+      "adverse_childhood_experiences": [
+        "foster care"
+      ],
+      "juvenile_delinquency": [
+        "juvenile justice"
+      ]
+    },
+    "evidence": [
+      "…egal clinics, and community service. Find details on how to engage and make an impact through these programs. Adoption Day Baylor Law’s Adoption Day celebrates foster care adoptions with an annual family-friendly event filled with decorations, costumes, and themed festivities, bringing joy to McLennan County families since 2008.…",
+      "…ts through Baylor Law’s Legal Clinics. Work alongside professors and practicing attorneys in a variety of clinics, including entrepreneurship, estate planning, juvenile justice, and veterans’ services, while making a difference in the community. Pro Bono Student Awards Explore how Baylor Law School recognizes student pro bono work and…"
     ],
     "accepting": {
       "status": "unknown",
@@ -9580,6 +11234,254 @@
     "named_on_program_accepting_page": []
   },
   {
+    "name": "Targeted Engagements",
+    "profile_url": "https://education.indiana.edu/about/international/index.html",
+    "institution": "Indiana University - Bloomington",
+    "department": "School Psychology/Counseling & Educational Psychology",
+    "program_area": "School Psychology",
+    "state": "IN",
+    "apa_program_number": 67,
+    "program_website": "https://education.indiana.edu/programs/graduate/doctoral/phd-school-psychology.html",
+    "topic_categories": [
+      "juvenile_delinquency"
+    ],
+    "topic_score": 3,
+    "core_terms": 1,
+    "youth_focus": false,
+    "matched_terms": {
+      "juvenile_delinquency": [
+        "delinquency"
+      ]
+    },
+    "evidence": [
+      "…nd Mitzi Lewison English Education in Afghanistan English Education in Afghanistan Curriculum Revision Mexico Theresa Ochoa Latin America Institute on Juvenile Delinquency and Prevention (multiple activities) International Partnerships Beijing Normal University Beijing, China Middle East Technical university Ankara, Turkey Univer…"
+    ],
+    "accepting": {
+      "status": "unknown",
+      "evidence": null,
+      "current_cycle": false,
+      "page_mentions_2027": false
+    },
+    "named_on_program_accepting_page": []
+  },
+  {
+    "name": "Orange Alert",
+    "profile_url": "https://thecollege.syr.edu/people/faculty/ducre-kishi-animashaun/",
+    "institution": "Syracuse University",
+    "department": "Department of Psychology",
+    "program_area": "School Psychology",
+    "state": "NY",
+    "apa_program_number": 32,
+    "program_website": "https://thecollege.syr.edu/psychology/graduate-study-psychology/school-psychology-graduate-program-overview/",
+    "topic_categories": [
+      "juvenile_delinquency"
+    ],
+    "topic_score": 3,
+    "core_terms": 1,
+    "youth_focus": false,
+    "matched_terms": {
+      "juvenile_delinquency": [
+        "school-to-prison"
+      ]
+    },
+    "evidence": [
+      "…sult the faculty member’s biography, listed website(s) or CV for additional information. Books Addressing Environmental and Food Justice toward Dismantling the School-to-Prison Pipeline: Poisoning and Imprisoning Youth Addressing Environmental and Food Justice toward Dismantling the School-to-Prison Pipeline: Poisoning and Imprisoning…"
+    ],
+    "accepting": {
+      "status": "unknown",
+      "evidence": null,
+      "current_cycle": false,
+      "page_mentions_2027": false
+    },
+    "named_on_program_accepting_page": []
+  },
+  {
+    "name": "Tiffany Brown",
+    "profile_url": "https://education.uoregon.edu/directory/faculty/all/tiffanyb",
+    "institution": "University of Oregon",
+    "department": "Department of Special Education and Clinical Sciences",
+    "program_area": "School Psychology",
+    "state": "OR",
+    "apa_program_number": 285,
+    "program_website": "https://education.uoregon.edu/spsy",
+    "topic_categories": [
+      "adverse_childhood_experiences"
+    ],
+    "topic_score": 3,
+    "core_terms": 1,
+    "youth_focus": false,
+    "matched_terms": {
+      "adverse_childhood_experiences": [
+        "child abuse"
+      ]
+    },
+    "evidence": [
+      "…of American College Health, 1-8. doi: 10.1080/07448481.2021.1955687 Todahl, J., Brown, T.B. , Barkhurst, P., Maxey, V., & Simone, A. (2019). Public opinion and child abuse prevention planning: A qualitative investigation. Journal of Interpersonal Violence, 36(7). doi: 10.1177/0886260519845714 Ashford, R., Brown, A., Brown, T.B. ,…"
+    ],
+    "accepting": {
+      "status": "unknown",
+      "evidence": null,
+      "current_cycle": false,
+      "page_mentions_2027": false
+    },
+    "named_on_program_accepting_page": []
+  },
+  {
+    "name": "Billie Jo Rodriguez",
+    "profile_url": "https://education.uoregon.edu/directory/spsy/all/billiejo",
+    "institution": "University of Oregon",
+    "department": "Department of Special Education and Clinical Sciences",
+    "program_area": "School Psychology",
+    "state": "OR",
+    "apa_program_number": 285,
+    "program_website": "https://education.uoregon.edu/spsy",
+    "topic_categories": [
+      "antisocial_conduct"
+    ],
+    "topic_score": 3,
+    "core_terms": 1,
+    "youth_focus": false,
+    "matched_terms": {
+      "antisocial_conduct": [
+        "disruptive behavior"
+      ]
+    },
+    "evidence": [
+      "…tervention system for social behavior. Journal of Educational and Psychological Consultation , 25, 224-251. Longoria, J.* & Rodriguez, B. J. (2015). Addressing Disruptive Behavior with Response to Intervention Practices: A Case-Study Approach to Improving Behavior in Student ADHD Populations. Research and Practice in the Schools: The Off…"
+    ],
+    "accepting": {
+      "status": "unknown",
+      "evidence": null,
+      "current_cycle": false,
+      "page_mentions_2027": false
+    },
+    "named_on_program_accepting_page": []
+  },
+  {
+    "name": "James G. Murphy, Ph.D.",
+    "profile_url": "https://www.memphis.edu/psychology/people/faculty/jgmurphy.php",
+    "institution": "The University of Memphis",
+    "department": "Department of Psychology, School Psychology Ph.D. Program",
+    "program_area": "School Psychology",
+    "state": "TN",
+    "apa_program_number": 1812,
+    "program_website": "https://www.memphis.edu/psychology/graduate/schabout.php",
+    "topic_categories": [
+      "adverse_childhood_experiences"
+    ],
+    "topic_score": 3,
+    "core_terms": 1,
+    "youth_focus": false,
+    "matched_terms": {
+      "adverse_childhood_experiences": [
+        "adverse childhood experiences"
+      ]
+    },
+    "evidence": [
+      "…ng. Journal of Consulting and Clinical Psychology. DOI: 10.1037/ccp0000412 Marks, L. R., *Acuff, S. F., *Withers, A. J., MacKillop, J., & Murphy, J. G. (2021). Adverse childhood experiences, racial microaggressions, and alcohol misuse in Black and White emerging adults. Psychology of addictive behaviors : journal of the Society of Psychologists in…"
+    ],
+    "accepting": {
+      "status": "unknown",
+      "evidence": null,
+      "current_cycle": false,
+      "page_mentions_2027": false
+    },
+    "named_on_program_accepting_page": []
+  },
+  {
+    "name": "Most-visited Sites",
+    "profile_url": "https://www.sc.edu/students/",
+    "institution": "University of South Carolina",
+    "department": "Department of Psychology",
+    "program_area": "School Psychology",
+    "state": "SC",
+    "apa_program_number": 847,
+    "program_website": "https://sc.edu/study/colleges_schools/artsandsciences/psychology/my_psych/current_grad_students/school_program/training_resources.php",
+    "topic_categories": [
+      "recidivism_prevention"
+    ],
+    "topic_score": 3,
+    "core_terms": 1,
+    "youth_focus": false,
+    "matched_terms": {
+      "recidivism_prevention": [
+        "violence prevention"
+      ]
+    },
+    "evidence": [
+      "…ty : Take action immediately in harmful situations. USCPD Safety Tools : Plan ahead using these recommended services. Sexual Assault Prevention : Interpersonal violence prevention and support. Get Involved USC offers an enormous array of opportunities to get out, get involved and develop the kind of connections, skills and meaningful exp…"
+    ],
+    "accepting": {
+      "status": "unknown",
+      "evidence": null,
+      "current_cycle": false,
+      "page_mentions_2027": true
+    },
+    "named_on_program_accepting_page": []
+  },
+  {
+    "name": "Evin Daines",
+    "profile_url": "https://cehs.usu.edu/psychology/people/daines-evin.php",
+    "institution": "Utah State University",
+    "department": "School Psychology Program / Department of Psychology",
+    "program_area": "School Psychology",
+    "state": "UT",
+    "apa_program_number": 2446,
+    "program_website": "https://cehs.usu.edu/psychology/doctoral/school-psychology",
+    "topic_categories": [
+      "juvenile_delinquency"
+    ],
+    "topic_score": 3,
+    "core_terms": 1,
+    "youth_focus": false,
+    "matched_terms": {
+      "juvenile_delinquency": [
+        "juvenile justice"
+      ]
+    },
+    "evidence": [
+      "…Ed. in School Counseling from Utah State University in 2020. I have experience as an elementary and middle school counselor, as well as facilitating groups for Juvenile Justice Services and working in a residential treatment center serving youth with mental health and behavioral disorders. I'm passionate about the school counseling pr…"
+    ],
+    "accepting": {
+      "status": "unknown",
+      "evidence": null,
+      "current_cycle": false,
+      "page_mentions_2027": false
+    },
+    "named_on_program_accepting_page": []
+  },
+  {
+    "name": "Legal Clinics",
+    "profile_url": "https://law.baylor.edu/why-baylor-law/academics/experiential-learning/legal-clinics",
+    "institution": "Baylor University",
+    "department": "Baylor University School Psychology Ph.D. Program",
+    "program_area": "School Psychology",
+    "state": "TX",
+    "apa_program_number": 2482,
+    "program_website": "https://schoolpsychology.soe.baylor.edu/phd-waco",
+    "topic_categories": [
+      "juvenile_delinquency"
+    ],
+    "topic_score": 3,
+    "core_terms": 1,
+    "youth_focus": false,
+    "matched_terms": {
+      "juvenile_delinquency": [
+        "juvenile justice"
+      ]
+    },
+    "evidence": [
+      "…ng for Veterans and First Responders Family Law Clinic Uncontested Divorces Uncontested Custody Cases Intellectual Property Law Clinic Patent Law Trademark Law Juvenile Justice Clinic Juvenile Justice Veterans Clinic Legal Advice for Veterans Over the past few years, thousands of Central Texas families have been served by Baylor Law S…"
+    ],
+    "accepting": {
+      "status": "unknown",
+      "evidence": null,
+      "current_cycle": false,
+      "page_mentions_2027": false
+    },
+    "named_on_program_accepting_page": []
+  },
+  {
     "name": "Jennifer Hames",
     "profile_url": "https://psychology.nd.edu/people/jennifer-hames/",
     "institution": "University of Notre Dame",
@@ -9911,6 +11813,42 @@
       "evidence": "…n PhD, Florida State University Research Areas Disruptive behavior Development Impacts Interventions About Dr. White is NOT currently accepting graduate students for the coming academic year Bradley A. White received his PhD from Florida State University. He joined the Department…",
       "current_cycle": true,
       "page_mentions_2027": false
+    },
+    "named_on_program_accepting_page": []
+  },
+  {
+    "name": "Dr. Eva Telzer",
+    "profile_url": "http://devpsych.unc.edu/faculty/",
+    "institution": "University of North Carolina, Chapel Hill",
+    "department": "Clinical Psychology Program/Department of Psychology and Neuroscience",
+    "program_area": "Clinical Psychology",
+    "state": "NC",
+    "apa_program_number": 274,
+    "program_website": "https://clinicalpsych.unc.edu/",
+    "topic_categories": [
+      "adverse_childhood_experiences",
+      "antisocial_conduct"
+    ],
+    "topic_score": 6,
+    "core_terms": 2,
+    "youth_focus": true,
+    "matched_terms": {
+      "adverse_childhood_experiences": [
+        "childhood adversity"
+      ],
+      "antisocial_conduct": [
+        "antisocial"
+      ]
+    },
+    "evidence": [
+      "…, Adam Associated Faculty | Associate Professor, School of Medicine 259 Davie Hall adam.miller@unc.edu Dr. Miller studies neural mechanisms of the link between childhood adversity and risk for adolescent health risk behaviors, especially suicide. Visit him online: Miller Lab . Muscatell, Keely Associated Faculty | Associate Professor in…",
+      "…e Hall ehtelzer@unc.edu Dr. Telzer’s research examines how social and cultural processes shape adolescent brain development, with a focus on both prosocial and antisocial behaviors, family and peer relationships, and the role of social media in youth’s lives. Visit her online: Developmental Social Neuroscience Lab . Dr. Telzer w…"
+    ],
+    "accepting": {
+      "status": "not_accepting",
+      "evidence": "…lopment, and when facing disruptions in healthy functioning due to disease. Visit her online: Cohen Lab. Dr. Cohen will not be accepting graduate students for Fall 2027. Cooper, Shauna Professor | Developmental Psychology Program Director 214 Davie Hall (919) 962-7468 shaun…",
+      "current_cycle": true,
+      "page_mentions_2027": true
     },
     "named_on_program_accepting_page": []
   },
@@ -10539,6 +12477,50 @@
       "evidence": "…PP) clinician on the international CPP roster. For further information, please visit Dr. Ablow's website . Dr. Ablow is not accepting new graduate students for Fall 2026 . Selected Publications: Wood, E.K., Nomura, O., Ablow , J.C. Elliot, A., Horgan, A., Nigg, J.T., Gustafs…",
       "current_cycle": false,
       "page_mentions_2027": false
+    },
+    "named_on_program_accepting_page": []
+  },
+  {
+    "name": "CECH Chats Podcast",
+    "profile_url": "https://cech.uc.edu/about/news-and-media/cech-chats-podcast.html",
+    "institution": "University of Cincinnati",
+    "department": "College of Education, Criminal Justice, and Human Services; School of Human Services",
+    "program_area": "School Psychology",
+    "state": "OH",
+    "apa_program_number": 2056,
+    "program_website": "https://cech.uc.edu/schools/human-services/graduate-programs/school-psychology-graduate-programs/school-psychology-phd.html",
+    "topic_categories": [
+      "antisocial_conduct",
+      "juvenile_delinquency",
+      "recidivism_prevention"
+    ],
+    "topic_score": 6,
+    "core_terms": 1,
+    "youth_focus": true,
+    "matched_terms": {
+      "juvenile_delinquency": [
+        "school to prison"
+      ],
+      "antisocial_conduct": [
+        "aggression"
+      ],
+      "recidivism_prevention": [
+        "incarcerated",
+        "incarceration",
+        "reentry"
+      ]
+    },
+    "evidence": [
+      "…cation, as a way of a means out and really create a pipeline to where success a lot of people talk about when we talk about the book and a little bit about the school to prison pipeline, a pipeline by which students enter education, spaces but get funneled into criminal justice spaces. But I always believe that we create we can create…",
+      "…r supervisors. I would say that's probably the, a number one, type of thing that, I try to at least discuss with my interns, as they matriculate through, their aggression towards the end of their internship, I check in with them at the midpoint to see. Are you asking relevant questions? Are you, then developing a relationship wi…",
+      "…sed and come home, I was working with the group because I was working with them when, you know, was at the prison. And so it really just, you know, they needed reentry support, right? They were coming home for the first time, men and women, you know, we're doing 30, 40, 50 years. And so they felt comfortable with me. And and…",
+      "…founder Laurie Pompa at Temple University. Temple University was the first university. Take college students and take them outside of the classroom and go into incarcerated spaces to learn with people who had lived, experience, and that process in that is really important. Our program is really, really important because if you are…"
+    ],
+    "accepting": {
+      "status": "not_accepting",
+      "evidence": "…Miami, I originally wanted to do developmental psychology, but the person I wanted to work with, Annette La Graca, was not accepting students because she was looking at how children because it Hurricane Andrew had just happened in I think it was 92 and I was ap…",
+      "current_cycle": false,
+      "page_mentions_2027": true
     },
     "named_on_program_accepting_page": []
   },
