@@ -1,0 +1,5 @@
+# downloaded HTML (1.8 GB) - regenerate with scrape.py
+cache/
+backup_*/
+data/*.log
+__pycache__/
