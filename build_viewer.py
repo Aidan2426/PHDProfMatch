@@ -173,7 +173,10 @@ table.miss tr:nth-child(even) td { background: var(--row-alt); }
     adverse_childhood_experiences: "ACEs / Adverse childhood",
     juvenile_delinquency: "Juvenile delinquency",
     antisocial_conduct: "Antisocial / conduct",
-    recidivism_prevention: "Recidivism / prevention"
+    recidivism_prevention: "Recidivism / prevention",
+    household_dysfunction: "Household dysfunction",
+    emotion_regulation: "Emotion regulation",
+    self_concept_clarity: "Self-concept clarity"
   };
   var ACC_LABEL = { accepting: "Accepting", unknown: "Unknown", not_accepting: "Not accepting" };
   var LS_KEY = "facultyShortlist.v1";

@@ -24,18 +24,6 @@
     "website": null
   },
   {
-    "apa_program_number": 187,
-    "institution": "University of Arizona",
-    "city": "Tucson",
-    "state": "AZ",
-    "department": "Department of Disability and Psychoeducational Studies",
-    "area": "School Psychology",
-    "degree": "Ph.D.",
-    "reason_type": "crawl_failed",
-    "reason": "Searched, site not read: start page fetch failed",
-    "website": "https://coe.arizona.edu/programs/school-psychology-phd"
-  },
-  {
     "apa_program_number": 284,
     "institution": "Alliant University, Fresno",
     "city": "Fresno",
@@ -300,18 +288,6 @@
     "website": null
   },
   {
-    "apa_program_number": 2687,
-    "institution": "Colorado State University",
-    "city": "Fort Collins",
-    "state": "CO",
-    "department": "Department of Psychology",
-    "area": "Counseling Psychology",
-    "degree": "Ph.D.",
-    "reason_type": "crawl_failed",
-    "reason": "Searched, site not read: start page fetch failed",
-    "website": "https://psychology.colostate.edu/counseling/"
-  },
-  {
     "apa_program_number": 2139,
     "institution": "University of Colorado Denver",
     "city": "Denver",
@@ -396,18 +372,6 @@
     "website": null
   },
   {
-    "apa_program_number": 298,
-    "institution": "Gallaudet University",
-    "city": "Washington",
-    "state": "DC",
-    "department": "Ph.D. Clinical Psychology Program/Department of Psychology",
-    "area": "Clinical Psychology",
-    "degree": "Ph.D.",
-    "reason_type": "crawl_failed",
-    "reason": "Searched, site not read: start page fetch failed",
-    "website": "https://gallaudet.edu/psychology/ph-d-in-clinical-psychology/#accreditation"
-  },
-  {
     "apa_program_number": 1092,
     "institution": "George Washington University",
     "city": "Washington",
@@ -490,18 +454,6 @@
     "reason_type": "excluded",
     "reason": "Not searched: School Psychology Psy.D.",
     "website": null
-  },
-  {
-    "apa_program_number": 980,
-    "institution": "University of South Florida",
-    "city": "Tampa",
-    "state": "FL",
-    "department": "Department of Educational and Psychological Studies",
-    "area": "School Psychology",
-    "degree": "Ph.D.",
-    "reason_type": "crawl_failed",
-    "reason": "Searched, site not read: start page fetch failed",
-    "website": "https://www.usf.edu/education/areas-of-study/school-psychology/"
   },
   {
     "apa_program_number": 2650,
@@ -696,18 +648,6 @@
     "website": null
   },
   {
-    "apa_program_number": 2635,
-    "institution": "Wheaton College",
-    "city": "Wheaton",
-    "state": "IL",
-    "department": "School of Psychology, Counseling, and Family Therapy",
-    "area": "Clinical Psychology",
-    "degree": "Ph.D.",
-    "reason_type": "crawl_failed",
-    "reason": "Searched, site not read: start page fetch failed",
-    "website": "https://www.wheaton.edu/graduate-school/degrees/phd-in-clinical-psychology/"
-  },
-  {
     "apa_program_number": 71,
     "institution": "Indiana State University",
     "city": "Terre Haute",
@@ -732,18 +672,6 @@
     "website": null
   },
   {
-    "apa_program_number": 2684,
-    "institution": "Indiana State University",
-    "city": "Terre Haute",
-    "state": "IN",
-    "department": "College of Education",
-    "area": "School Psychology",
-    "degree": "Ph.D.",
-    "reason_type": "crawl_failed",
-    "reason": "Searched, site not read: start page fetch failed",
-    "website": "https://www.indstate.edu/education/aces/school-psychology/doctoral-programs"
-  },
-  {
     "apa_program_number": 2670,
     "institution": "University of Evansville",
     "city": "Evansville",
@@ -766,18 +694,6 @@
     "reason_type": "excluded",
     "reason": "Not searched: Clinical Psychology Psy.D.",
     "website": null
-  },
-  {
-    "apa_program_number": 1531,
-    "institution": "Wichita State University",
-    "city": "Wichita",
-    "state": "KS",
-    "department": "Psychology Department",
-    "area": "Clinical Psychology",
-    "degree": "Ph.D.",
-    "reason_type": "crawl_failed",
-    "reason": "Searched, site not read: only 0 faculty profiles found",
-    "website": "https://www.wichita.edu/academics/fairmount_college_of_liberal_arts_and_sciences/psychology/graduate/clinical/clinicalphd.php"
   },
   {
     "apa_program_number": 2163,
@@ -824,7 +740,7 @@
     "area": "Counseling Psychology",
     "degree": "Ph.D.",
     "reason_type": "crawl_failed",
-    "reason": "Searched, site not read: start page fetch failed",
+    "reason": "Searched, site not read: only 0 faculty profiles found",
     "website": "https://education.latech.edu/academic-programs/psychology-behavioral-sciences/doctoral-programs/counseling-psychology/"
   },
   {
@@ -838,18 +754,6 @@
     "reason_type": "excluded",
     "reason": "Not searched: Clinical Psychology Psy.D.",
     "website": null
-  },
-  {
-    "apa_program_number": 268,
-    "institution": "Tulane University",
-    "city": "New Orleans",
-    "state": "LA",
-    "department": "Department of Psychology",
-    "area": "School Psychology",
-    "degree": "Ph.D.",
-    "reason_type": "crawl_failed",
-    "reason": "Searched, site not read: start page fetch failed",
-    "website": "https://sse.tulane.edu/psyc/academics/graduate/phd-programs/school-psyc"
   },
   {
     "apa_program_number": 1613,
@@ -920,7 +824,7 @@
     "area": "Clinical Psychology",
     "degree": "Ph.D.",
     "reason_type": "crawl_failed",
-    "reason": "Searched, site not read: start page fetch failed",
+    "reason": "Searched, site not read: only 0 faculty profiles found",
     "website": "https://www.emich.edu/psychology/programs/clinical-psychology-phd.php"
   },
   {
@@ -944,20 +848,8 @@
     "area": "Clinical Psychology",
     "degree": "Ph.D.",
     "reason_type": "crawl_failed",
-    "reason": "Searched, site not read: start page fetch failed",
+    "reason": "Searched, site not read: only 0 faculty profiles found",
     "website": "https://lsa.umich.edu/psych/program-areas/clinical-science.html"
-  },
-  {
-    "apa_program_number": 273,
-    "institution": "Western Michigan University",
-    "city": "Kalamazoo",
-    "state": "MI",
-    "department": "Department of Counselor Education and Counseling Psychology",
-    "area": "Counseling Psychology",
-    "degree": "Ph.D.",
-    "reason_type": "crawl_failed",
-    "reason": "Searched, site not read: start page fetch failed",
-    "website": "https://wmich.edu/cecp/doctoral-counseling-psychology"
   },
   {
     "apa_program_number": 2445,
@@ -1018,18 +910,6 @@
     "reason_type": "excluded",
     "reason": "Not searched: Clinical Psychology Psy.D.",
     "website": null
-  },
-  {
-    "apa_program_number": 1048,
-    "institution": "Jackson State University",
-    "city": "Jackson",
-    "state": "MS",
-    "department": "Clinical Psychology Doctoral Program / Department of Psychology",
-    "area": "Clinical Psychology",
-    "degree": "Ph.D.",
-    "reason_type": "crawl_failed",
-    "reason": "Searched, site not read: start page fetch failed",
-    "website": "https://www.jsums.edu/psychology/ph-d-in-clinical-psychology-student-admission-outcomes-and-other-data/"
   },
   {
     "apa_program_number": 2133,
@@ -1136,20 +1016,8 @@
     "area": "Clinical Psychology",
     "degree": "Ph.D.",
     "reason_type": "crawl_failed",
-    "reason": "Searched, site not read: start page fetch failed",
+    "reason": "Searched, site not read: only 0 faculty profiles found",
     "website": "https://www.montclair.edu/psychology/graduate-programs/phd-in-clinical-psychology/"
-  },
-  {
-    "apa_program_number": 2256,
-    "institution": "Rowan University",
-    "city": "Glassboro",
-    "state": "NJ",
-    "department": "Clinical Psychology/Dept of Psychology",
-    "area": "Clinical Psychology",
-    "degree": "Ph.D.",
-    "reason_type": "crawl_failed",
-    "reason": "Searched, site not read: start page fetch failed",
-    "website": "https://csm.rowan.edu/departments/psychology/clinical/"
   },
   {
     "apa_program_number": 40,
@@ -1186,18 +1054,6 @@
     "reason_type": "excluded",
     "reason": "Not searched: Counseling Psychology Psy.D.",
     "website": null
-  },
-  {
-    "apa_program_number": 998,
-    "institution": "Seton Hall University",
-    "city": "South Orange",
-    "state": "NJ",
-    "department": "Department of Professional Psych and Family Therapy",
-    "area": "Counseling Psychology",
-    "degree": "Ph.D.",
-    "reason_type": "crawl_failed",
-    "reason": "Searched, site not read: start page fetch failed",
-    "website": "https://www.shu.edu/academics/phd-counseling-psychology-index.cfm    "
   },
   {
     "apa_program_number": 2136,
@@ -1344,18 +1200,6 @@
     "website": null
   },
   {
-    "apa_program_number": 25,
-    "institution": "Stony Brook University, State University of New York",
-    "city": "Stony Brook",
-    "state": "NY",
-    "department": "Department of Psychology, Ph.D. Program",
-    "area": "Clinical Psychology",
-    "degree": "Ph.D.",
-    "reason_type": "crawl_failed",
-    "reason": "Searched, site not read: start page fetch failed",
-    "website": "https://www.stonybrook.edu/commcms/psychology/clinical/index.php#Accreditation"
-  },
-  {
     "apa_program_number": 14,
     "institution": "The City College of New York, The Graduate Center, CUNY",
     "city": "New York",
@@ -1426,18 +1270,6 @@
     "reason_type": "excluded",
     "reason": "Not searched: Combined, Clinical-School Psychology Psy.D.",
     "website": null
-  },
-  {
-    "apa_program_number": 59,
-    "institution": "The Ohio State University",
-    "city": "Columbus",
-    "state": "OH",
-    "department": "Department of Psychology, Ph.D. Program",
-    "area": "Clinical Psychology",
-    "degree": "Ph.D.",
-    "reason_type": "crawl_failed",
-    "reason": "Searched, site not read: start page fetch failed",
-    "website": "https://psychology.osu.edu/about/programs/clinical"
   },
   {
     "apa_program_number": 63,
@@ -1632,30 +1464,6 @@
     "website": null
   },
   {
-    "apa_program_number": 283,
-    "institution": "Lehigh University",
-    "city": "Bethlehem",
-    "state": "PA",
-    "department": "Department of Education & Human Services",
-    "area": "Counseling Psychology",
-    "degree": "Ph.D.",
-    "reason_type": "crawl_failed",
-    "reason": "Searched, site not read: start page fetch failed",
-    "website": "https://ed.lehigh.edu/academics/degrees/doctoral/counseling-psychology-phd-program"
-  },
-  {
-    "apa_program_number": 252,
-    "institution": "Lehigh University",
-    "city": "Bethlehem",
-    "state": "PA",
-    "department": "Department of Education and Human Services",
-    "area": "School Psychology",
-    "degree": "Ph.D.",
-    "reason_type": "crawl_failed",
-    "reason": "Searched, site not read: start page fetch failed",
-    "website": "https://ed.lehigh.edu/academics/degrees/doctoral/school-psychology-phd-program"
-  },
-  {
     "apa_program_number": 1560,
     "institution": "Marywood University",
     "city": "Scranton",
@@ -1666,30 +1474,6 @@
     "reason_type": "excluded",
     "reason": "Not searched: Clinical Psychology Psy.D.",
     "website": null
-  },
-  {
-    "apa_program_number": 43,
-    "institution": "Pennsylvania State University",
-    "city": "University Park",
-    "state": "PA",
-    "department": "Department of Psychology, Ph.D. Program",
-    "area": "Clinical Psychology",
-    "degree": "Ph.D.",
-    "reason_type": "crawl_failed",
-    "reason": "Searched, site not read: start page fetch failed",
-    "website": "https://psych.la.psu.edu/wp-content/uploads/sites/15/2023/08/Applicant-data-2022-23.pdf"
-  },
-  {
-    "apa_program_number": 45,
-    "institution": "Pennsylvania State University",
-    "city": "University Park",
-    "state": "PA",
-    "department": "Department of Educational Psychology, Counseling, and Special Education",
-    "area": "School Psychology",
-    "degree": "Ph.D.",
-    "reason_type": "crawl_failed",
-    "reason": "Searched, site not read: start page fetch failed",
-    "website": "https://ed.psu.edu/epcse/school-psychology"
   },
   {
     "apa_program_number": 984,
@@ -1750,18 +1534,6 @@
     "reason_type": "crawl_failed",
     "reason": "Searched, site not read: start page fetch failed",
     "website": "https://psychology.sas.upenn.edu/training-programs/clinical-training-program"
-  },
-  {
-    "apa_program_number": 48,
-    "institution": "University of Pittsburgh",
-    "city": "Pittsburgh",
-    "state": "PA",
-    "department": "Department of Psychology",
-    "area": "Clinical Psychology",
-    "degree": "Ph.D.",
-    "reason_type": "crawl_failed",
-    "reason": "Searched, site not read: start page fetch failed",
-    "website": "http://psychology.pitt.edu/clinical-program"
   },
   {
     "apa_program_number": 2308,
@@ -1860,30 +1632,6 @@
     "website": null
   },
   {
-    "apa_program_number": 1087,
-    "institution": "University of Tennessee - Knoxville",
-    "city": "Knoxville",
-    "state": "TN",
-    "department": "Department of Psychology",
-    "area": "Counseling Psychology",
-    "degree": "Ph.D.",
-    "reason_type": "crawl_failed",
-    "reason": "Searched, site not read: start page fetch failed",
-    "website": "https://psychology.utk.edu/graduate-students/programs/phd_counseling/"
-  },
-  {
-    "apa_program_number": 1085,
-    "institution": "University of Tennessee - Knoxville",
-    "city": "Knoxville",
-    "state": "TN",
-    "department": "Department of Psychology, Ph.D. Program",
-    "area": "Clinical Psychology",
-    "degree": "Ph.D.",
-    "reason_type": "crawl_failed",
-    "reason": "Searched, site not read: start page fetch failed",
-    "website": "https://psychology.utk.edu/grad/phd_clinical.php"
-  },
-  {
     "apa_program_number": 2632,
     "institution": "Angelo State University",
     "city": "San Angelo",
@@ -1920,18 +1668,6 @@
     "website": null
   },
   {
-    "apa_program_number": 1569,
-    "institution": "Sam Houston State University",
-    "city": "Huntsville",
-    "state": "TX",
-    "department": "Department of Psychology and Philosophy",
-    "area": "Clinical Psychology",
-    "degree": "Ph.D.",
-    "reason_type": "crawl_failed",
-    "reason": "Searched, site not read: start page fetch failed",
-    "website": "https://www.shsu.edu/academics/psychology-and-philosophy/psychology/doctoral-program/"
-  },
-  {
     "apa_program_number": 171,
     "institution": "Texas A&M University",
     "city": "College Station",
@@ -1956,18 +1692,6 @@
     "website": null
   },
   {
-    "apa_program_number": 2483,
-    "institution": "The University of Texas at Tyler",
-    "city": "Tyler",
-    "state": "TX",
-    "department": "Department of Psychology and Counseling-Clinical Psychology Ph.D. Program",
-    "area": "Clinical Psychology",
-    "degree": "Ph.D.",
-    "reason_type": "crawl_failed",
-    "reason": "Searched, site not read: start page fetch failed",
-    "website": "https://www.uttyler.edu/psychology/graduate/phd-clinical-psychology/"
-  },
-  {
     "apa_program_number": 2311,
     "institution": "University of Houston- Clear Lake",
     "city": "Houston",
@@ -1978,42 +1702,6 @@
     "reason_type": "excluded",
     "reason": "Not searched: Combined, Clinical-School Psychology Psy.D.",
     "website": null
-  },
-  {
-    "apa_program_number": 168,
-    "institution": "University of North Texas",
-    "city": "Denton",
-    "state": "TX",
-    "department": "Department of Psychology",
-    "area": "Counseling Psychology",
-    "degree": "Ph.D.",
-    "reason_type": "crawl_failed",
-    "reason": "Searched, site not read: start page fetch failed",
-    "website": "https://psychology.unt.edu/graduate-programs/counseling-psychology"
-  },
-  {
-    "apa_program_number": 845,
-    "institution": "University of North Texas",
-    "city": "Denton",
-    "state": "TX",
-    "department": "Department of Psychology",
-    "area": "Clinical Psychology",
-    "degree": "Ph.D.",
-    "reason_type": "crawl_failed",
-    "reason": "Searched, site not read: start page fetch failed",
-    "website": "https://psychology.unt.edu/graduate-programs/clinical-psychology"
-  },
-  {
-    "apa_program_number": 174,
-    "institution": "University of Texas at Austin",
-    "city": "Austin",
-    "state": "TX",
-    "department": "Department of Psychology, Ph.D. Program",
-    "area": "Clinical Psychology",
-    "degree": "Ph.D.",
-    "reason_type": "crawl_failed",
-    "reason": "Searched, site not read: start page fetch failed",
-    "website": "https://liberalarts.utexas.edu/psychology/areas-of-study/clinical-psychology/program-overview.html"
   },
   {
     "apa_program_number": 2489,
@@ -2028,18 +1716,6 @@
     "website": ""
   },
   {
-    "apa_program_number": 993,
-    "institution": "Brigham Young University",
-    "city": "Provo",
-    "state": "UT",
-    "department": "Counseling Psychology and Special Education",
-    "area": "Counseling Psychology",
-    "degree": "Ph.D.",
-    "reason_type": "crawl_failed",
-    "reason": "Searched, site not read: start page fetch failed",
-    "website": "https://education.byu.edu/cpse/phd "
-  },
-  {
     "apa_program_number": 2640,
     "institution": "Southern Utah University",
     "city": "Cedar City",
@@ -2050,18 +1726,6 @@
     "reason_type": "excluded",
     "reason": "Not searched: Clinical Psychology Psy.D.",
     "website": null
-  },
-  {
-    "apa_program_number": 192,
-    "institution": "University of Utah",
-    "city": "Salt Lake City",
-    "state": "UT",
-    "department": "Counseling Psychology Program/ Department of Educational Psychology",
-    "area": "Counseling Psychology",
-    "degree": "Ph.D.",
-    "reason_type": "crawl_failed",
-    "reason": "Searched, site not read: start page fetch failed",
-    "website": "https://ed-psych.utah.edu/counseling-psych/index.php"
   },
   {
     "apa_program_number": 1753,
@@ -2124,18 +1788,6 @@
     "website": null
   },
   {
-    "apa_program_number": 125,
-    "institution": "University of Virginia",
-    "city": "Charlottesville",
-    "state": "VA",
-    "department": "Department of Psychology",
-    "area": "Clinical Psychology",
-    "degree": "Ph.D.",
-    "reason_type": "crawl_failed",
-    "reason": "Searched, site not read: start page fetch failed",
-    "website": "https://psychology.as.virginia.edu/research-areas/clinical-psychology"
-  },
-  {
     "apa_program_number": 126,
     "institution": "University of Virginia",
     "city": "Charlottesville",
@@ -2194,18 +1846,6 @@
     "reason_type": "crawl_failed",
     "reason": "Searched, site not read: start page fetch failed",
     "website": "https://psych.wisc.edu/research/clinical/"
-  },
-  {
-    "apa_program_number": 305,
-    "institution": "University of Wisconsin, Milwaukee",
-    "city": "Milwaukee",
-    "state": "WI",
-    "department": "Department of Educational Psychology",
-    "area": "Counseling Psychology",
-    "degree": "Ph.D.",
-    "reason_type": "crawl_failed",
-    "reason": "Searched, site not read: start page fetch failed",
-    "website": "https://uwm.edu/education/academics/counseling-psychology-phd/ "
   },
   {
     "apa_program_number": 300,

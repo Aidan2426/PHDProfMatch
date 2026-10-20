@@ -21,7 +21,7 @@ import re
 import sys
 import threading
 import time
-from concurrent.futures import ThreadPoolExecutor, as_completed
+from concurrent.futures import ProcessPoolExecutor, ThreadPoolExecutor, as_completed
 from pathlib import Path
 from urllib.parse import urljoin, urldefrag, urlparse
 
@@ -78,6 +78,23 @@ TOPICS = {
                  r"functional family therapy", r"(youth )?violence prevention", r"(crime|delinquency) prevention"],
         "broad": [r"risk assessment", r"forensic", r"reentry", r"incarcerat\w*"],
     },
+    "household_dysfunction": {
+        "core": [r"household dysfunction", r"family dysfunction", r"dysfunctional famil(y|ies)",
+                 r"parental incarceration", r"incarcerated parents?",
+                 r"(exposure to|witness\w*) (domestic|intimate partner|interparental|family) violence",
+                 r"interparental (conflict|violence|aggression)"],
+        "broad": [r"domestic violence", r"intimate partner violence", r"family (conflict|violence|instability)",
+                  r"parental (substance|alcohol|drug) (use|abuse|misuse)",
+                  r"parental (mental illness|psychopathology|depression)", r"divorce"],
+    },
+    "emotion_regulation": {
+        "core": [r"emotion(al)? (dys)?regulation", r"emotion dysregulation", r"regulation of emotions?"],
+        "broad": [r"affect regulation", r"self-regulation"],
+    },
+    "self_concept_clarity": {
+        "core": [r"self-?concept clarity"],
+        "broad": [r"self-?concept", r"identity development"],
+    },
 }
 ACES_CASE = re.compile(r"\bACEs\b")  # case-sensitive so "aces" doesn't match
 TOPIC_RX = {cat: [(re.compile(r"\b" + p + r"\b", re.I), tier) for tier in ("core", "broad") for p in v[tier]]
@@ -129,6 +146,12 @@ def _cache_path(url, kind):
 
 
 def fetch_requests(url):
+    # a page the browser retry managed to get beats a failed/missing requests fetch
+    b = _cache_path(url, "b")
+    if b.exists():
+        bh = b.read_text(encoding="utf-8", errors="ignore")
+        if bh and not BrowserFetcher.CHALLENGE.search(bh):
+            return bh
     p = _cache_path(url, "r")
     if p.exists():
         return p.read_text(encoding="utf-8", errors="ignore")
@@ -540,8 +563,11 @@ def run_faculty(limit=None, only=None, browser=False, workers=12, new=False, ret
         logs = [l for l in logs if l["apa_program_number"] != n] + [log]
         save_results(all_hits, logs, suffix)
 
+    # requests mode: separate processes so HTML parsing uses every CPU core
+    # (threads share one core under the GIL). Browser mode stays threaded.
     fetch = ThreadedBrowser() if retry_failed else fetch_requests
-    with ThreadPoolExecutor(workers) as ex:
+    pool = ThreadPoolExecutor if retry_failed else ProcessPoolExecutor
+    with pool(workers) as ex:
         futs = {ex.submit(crawl_program, p, fetch): p for p in programs}
         for i, f in enumerate(as_completed(futs), 1):
             p = futs[f]
